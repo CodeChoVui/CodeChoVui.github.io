@@ -1,5 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+
+    color: #00ff00;
+
+    display: flex;
+
+    font-family: Consolas;
+    font-size: x-large;
+    
+    justify-self: center;
+    justify-content: space-around;
+}
+
+.page-title {
+    padding-top: 25%;
+    padding-bottom:25% ;
+    text-align: center;
+}
+
 .card {
-    @media  {
-        
-    }
+    max-width: 75%;
+    max-height: 25%;
+    min-height: 25%;
+    border: aliceblue solid 1px;
+    margin: 10px auto 10px auto;
+}
+
+.card-content {
+    margin:5px 50px 5px 50px;
+    
+}
+
+.card-title {
+    padding-left: 20px;
 }
