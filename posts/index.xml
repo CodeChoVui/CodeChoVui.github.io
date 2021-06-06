@@ -1,0 +1,16 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Code Cho Vui</title><link>http://CodeChoVui.github.io/posts/</link><description>Recent content in Posts on Code Cho Vui</description><generator>Hugo -- gohugo.io</generator><language>vi</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 06 Jun 2021 15:18:01 +0700</lastBuildDate><atom:link href="http://CodeChoVui.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome</title><link>http://CodeChoVui.github.io/posts/welcome/</link><pubDate>Sun, 06 Jun 2021 15:18:01 +0700</pubDate><guid>http://CodeChoVui.github.io/posts/welcome/</guid><description>Xin chào Post này chỉ để test thôi :) Mọi người không cần quan tâm đâu.
+Syntax Highlight Code Python
+for i in range(10): print(&amp;#34;Hello&amp;#34;) Links Facebook
+Github
+Blog</description><content type="html"><![CDATA[<h1 id="xin-chào">Xin chào</h1>
+<p>Post này chỉ để test thôi :)
+Mọi người không cần quan tâm đâu.</p>
+<h1 id="syntax-highlight">Syntax Highlight</h1>
+<p>Code Python</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>):
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Hello&#34;</span>)
+</code></pre></div><h1 id="links">Links</h1>
+<p><a href="fb.com/CodeChoVui">Facebook</a><br>
+<a href="github.com/CodeChoVui">Github</a><br>
+<a href="CodeChoVui.github.io">Blog</a></p>
+]]></content></item></channel></rss>
