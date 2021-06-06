@@ -2,14 +2,14 @@
 Syntax Highlight Code Python
 for i in range(10): print(&amp;#34;Hello&amp;#34;) Links Facebook
 Github
-Blog</description><content type="html"><![CDATA[<h1 id="xin-chào">Xin chào</h1>
+Blog</description><content type="html"><![CDATA[<h2 id="xin-chào">Xin chào</h2>
 <p>Post này chỉ để test thôi :)
 Mọi người không cần quan tâm đâu.</p>
-<h1 id="syntax-highlight">Syntax Highlight</h1>
+<h2 id="syntax-highlight">Syntax Highlight</h2>
 <p>Code Python</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>):
     <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Hello&#34;</span>)
-</code></pre></div><h1 id="links">Links</h1>
+</code></pre></div><h2 id="links">Links</h2>
 <p><a href="fb.com/CodeChoVui">Facebook</a><br>
 <a href="github.com/CodeChoVui">Github</a><br>
 <a href="CodeChoVui.github.io">Blog</a></p>
