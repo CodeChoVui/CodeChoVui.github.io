@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>test on Code Cho Vui</title><link>http://CodeChoVui.github.io/tags/test/</link><description>Recent content in test on Code Cho Vui</description><generator>Hugo -- gohugo.io</generator><language>vi</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 06 Jun 2021 15:18:01 +0700</lastBuildDate><atom:link href="http://CodeChoVui.github.io/tags/test/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome</title><link>http://CodeChoVui.github.io/posts/welcome/</link><pubDate>Sun, 06 Jun 2021 15:18:01 +0700</pubDate><guid>http://CodeChoVui.github.io/posts/welcome/</guid><description>Xin chào Post này chỉ để test thôi :) Mọi người không cần quan tâm đâu.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on Code Cho Vui</title>
+    <link>http://CodeChoVui.github.io/tags/test/</link>
+    <description>Recent content in test on Code Cho Vui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 06 Jun 2021 15:18:01 +0700</lastBuildDate><atom:link href="http://CodeChoVui.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>http://CodeChoVui.github.io/posts/welcome/</link>
+      <pubDate>Sun, 06 Jun 2021 15:18:01 +0700</pubDate>
+      
+      <guid>http://CodeChoVui.github.io/posts/welcome/</guid>
+      <description>Xin chào Post này chỉ để test thôi :) Mọi người không cần quan tâm đâu.
 Syntax Highlight Code Python
 for i in range(10): print(&amp;#34;Hello&amp;#34;) Links Facebook
 Github
-Blog</description></item></channel></rss>
+Blog</description>
+    </item>
+    
+  </channel>
+</rss>
