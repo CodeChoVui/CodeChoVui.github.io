@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Code Cho Vui</title>
-    <link>https://CodeChoVui.github.io/posts/</link>
-    <description>Recent content in Posts on Code Cho Vui</description>
+    <title>test-cate on Code Cho Vui</title>
+    <link>https://CodeChoVui.github.io/categories/test-cate/</link>
+    <description>Recent content in test-cate on Code Cho Vui</description>
     <image>
       <url>https://cdn.bandeck.com/1968ef932a99af0ef5c5c7d998228c28?cache=1</url>
       <link>https://cdn.bandeck.com/1968ef932a99af0ef5c5c7d998228c28?cache=1</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Dec 2021 22:42:09 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test_post</title>
-      <link>https://CodeChoVui.github.io/posts/test_post/</link>
-      <pubDate>Thu, 23 Dec 2021 22:42:09 +0700</pubDate>
-      
-      <guid>https://CodeChoVui.github.io/posts/test_post/</guid>
-      <description>Hello World This is the hello test post</description>
-    </item>
-    
+    <lastBuildDate>Sun, 06 Jun 2021 15:18:01 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/categories/test-cate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome</title>
       <link>https://CodeChoVui.github.io/posts/welcome/</link>

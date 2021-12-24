@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Code Cho Vui</title><link>http://CodeChoVui.github.io/categories/</link><description>Recent content in Categories on Code Cho Vui</description><generator>Hugo -- gohugo.io</generator><language>vi</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://CodeChoVui.github.io/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Code Cho Vui</title>
+    <link>https://CodeChoVui.github.io/categories/</link>
+    <description>Recent content in Categories on Code Cho Vui</description>
+    <image>
+      <url>https://cdn.bandeck.com/1968ef932a99af0ef5c5c7d998228c28?cache=1</url>
+      <link>https://cdn.bandeck.com/1968ef932a99af0ef5c5c7d998228c28?cache=1</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 06 Jun 2021 15:18:01 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test-cate</title>
+      <link>https://CodeChoVui.github.io/categories/test-cate/</link>
+      <pubDate>Sun, 06 Jun 2021 15:18:01 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/categories/test-cate/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
