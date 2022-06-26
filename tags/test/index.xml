@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>test on Code Cho Vui</title>
+    <link>https://CodeChoVui.github.io/tags/test/</link>
+    <description>Recent content in test on Code Cho Vui</description>
+    <image>
+      <url>https://cdn.bandeck.com/8ee7e5676bdca599b0c7693a1fac00d1?cache=1</url>
+      <link>https://cdn.bandeck.com/8ee7e5676bdca599b0c7693a1fac00d1?cache=1</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 29 Mar 2022 16:51:46 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test_2</title>
+      <link>https://CodeChoVui.github.io/posts/test_2/</link>
+      <pubDate>Tue, 29 Mar 2022 16:51:46 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/posts/test_2/</guid>
+      <description>What the fuq is this ? This is just a post for testing the github workflows.
+Thanks for reading this.</description>
+    </item>
+    
+    <item>
+      <title>Test_1</title>
+      <link>https://CodeChoVui.github.io/posts/test_1/</link>
+      <pubDate>Sun, 06 Jun 2021 15:18:01 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/posts/test_1/</guid>
+      <description>Xin chào Chào mừng mọi người đến với Code Cho Vui!
+Post này chỉ để test thôi :)
+Mọi người không cần quan tâm đâu.
+Syntax Highlight Code Python
+for i in range(10):  print(&amp;#34;Hello&amp;#34;) Links Facebook
+Github
+Blog</description>
+    </item>
+    
+  </channel>
+</rss>

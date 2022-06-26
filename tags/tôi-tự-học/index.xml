@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tôi tự học on Code Cho Vui</title>
+    <link>https://CodeChoVui.github.io/tags/t%C3%B4i-t%E1%BB%B1-h%E1%BB%8Dc/</link>
+    <description>Recent content in Tôi tự học on Code Cho Vui</description>
+    <image>
+      <url>https://cdn.bandeck.com/8ee7e5676bdca599b0c7693a1fac00d1?cache=1</url>
+      <link>https://cdn.bandeck.com/8ee7e5676bdca599b0c7693a1fac00d1?cache=1</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 07 Apr 2022 22:59:05 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/tags/t%C3%B4i-t%E1%BB%B1-h%E1%BB%8Dc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Những Khái Niệm Cơ Bản</title>
+      <link>https://CodeChoVui.github.io/posts/t%C3%B4i-h%E1%BB%8Dc-nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
+      <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/posts/t%C3%B4i-h%E1%BB%8Dc-nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</guid>
+      <description>Cài đặt NodeJS Để cài đặt Nodejs thì việc cần làm là lên trang web chính thức của Nodejs là nodejs.org và tải về bản cài đặt cho hệ điều hành bạn muốn. Riêng với Linux, chúng ta chỉ cần chạy câu lệnh install cơ bản.
+$ sudo apt install nodejs Sau khi đã cài đặt xong, để kiểm tra xem Nodejs đã được cài chưa, mình chạy câu lệnh node -v trong command prompt để xem phiên bản Nodejs được cài.</description>
+    </item>
+    
+  </channel>
+</rss>

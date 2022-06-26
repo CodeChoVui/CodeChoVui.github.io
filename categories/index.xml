@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Code Cho Vui</title>
+    <link>https://CodeChoVui.github.io/categories/</link>
+    <description>Recent content in Categories on Code Cho Vui</description>
+    <image>
+      <url>https://cdn.bandeck.com/8ee7e5676bdca599b0c7693a1fac00d1?cache=1</url>
+      <link>https://cdn.bandeck.com/8ee7e5676bdca599b0c7693a1fac00d1?cache=1</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 07 Apr 2022 22:59:05 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nodejs</title>
+      <link>https://CodeChoVui.github.io/categories/nodejs/</link>
+      <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/categories/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C Basic</title>
+      <link>https://CodeChoVui.github.io/categories/c-basic/</link>
+      <pubDate>Sat, 02 Apr 2022 20:08:48 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/categories/c-basic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
