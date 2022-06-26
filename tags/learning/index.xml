@@ -9,7 +9,19 @@
       <link>https://CodeChoVui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 Apr 2022 22:59:05 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jun 2022 13:48:07 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0x01 - Những điều cơ bản</title>
+      <link>https://CodeChoVui.github.io/posts/rust/0x01/</link>
+      <pubDate>Sat, 25 Jun 2022 13:48:07 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/posts/rust/0x01/</guid>
+      <description>Cài đặt Xem cách cài đặt tại website của Rust.
+Đối với linux chỉ cần dùng lệnh sau trong terminal
+curl --proto &amp;#39;=https&amp;#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh Hello, World! File extension của Rust là .rs. Tạo một file main.rs và tạo một chương trình in ra Hello, World! như sau.
+fn main() {  println!(&amp;#34;Hello, World!&amp;#34;); } Như trong C/C++, chương trình Rust sẽ có một hàm main() là điểm bắt đầu của mọi chương trình.</description>
+    </item>
+    
     <item>
       <title>Những Khái Niệm Cơ Bản</title>
       <link>https://CodeChoVui.github.io/posts/t%C3%B4i-h%E1%BB%8Dc-nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
