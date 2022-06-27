@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://CodeChoVui.github.io/posts/rust/0x02/</loc>
+    <lastmod>2022-06-25T14:36:14+07:00</lastmod>
+  </url><url>
     <loc>https://CodeChoVui.github.io/posts/rust/0x01/</loc>
     <lastmod>2022-06-25T13:48:07+07:00</lastmod>
   </url><url>
@@ -33,18 +36,18 @@
     <lastmod>2022-04-02T20:08:48+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/categories/</loc>
-    <lastmod>2022-06-25T13:48:07+07:00</lastmod>
+    <lastmod>2022-06-25T14:36:14+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/</loc>
-    <lastmod>2022-06-25T13:48:07+07:00</lastmod>
-  </url><url>
-    <loc>https://CodeChoVui.github.io/tags/learning/</loc>
-    <lastmod>2022-06-25T13:48:07+07:00</lastmod>
+    <lastmod>2022-06-25T14:36:14+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/posts/</loc>
-    <lastmod>2022-06-25T13:48:07+07:00</lastmod>
+    <lastmod>2022-06-25T14:36:14+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/categories/rust/</loc>
+    <lastmod>2022-06-25T14:36:14+07:00</lastmod>
+  </url><url>
+    <loc>https://CodeChoVui.github.io/tags/learning/</loc>
     <lastmod>2022-06-25T13:48:07+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/tags/</loc>
