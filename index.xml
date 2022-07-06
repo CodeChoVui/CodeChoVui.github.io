@@ -9,7 +9,19 @@
       <link>https://CodeChoVui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Jun 2022 10:54:47 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jul 2022 09:03:24 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0x04 - Functions</title>
+      <link>https://CodeChoVui.github.io/posts/rust/0x04/</link>
+      <pubDate>Wed, 06 Jul 2022 09:03:24 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/posts/rust/0x04/</guid>
+      <description>Functions Khai báo một hàm.
+fn function_name() {  } Một chương trình có thể có nhiều hàm.
+fn main() {  another_function(); }  fn another_function() {  println!(&amp;#34;Hello!&amp;#34;); } Function Parameters Tạo một function với các parameters.
+fn main() {  print_value(14);  print_value(20);   add_2_number(5, 10);  add_2_number(7, 18); }  fn print_value(value: i32) {  println!(&amp;#34;The given value is: {}&amp;#34;, value); }  fn add_2_number(a: i32, b: i32) {  println!</description>
+    </item>
+    
     <item>
       <title>0x03 - Rust Concept</title>
       <link>https://CodeChoVui.github.io/posts/rust/0x03/</link>
