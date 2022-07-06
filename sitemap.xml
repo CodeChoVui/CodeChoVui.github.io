@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://CodeChoVui.github.io/posts/rust/0x03/</loc>
+    <lastmod>2022-06-26T10:54:47+07:00</lastmod>
+  </url><url>
     <loc>https://CodeChoVui.github.io/posts/rust/0x02/</loc>
     <lastmod>2022-06-25T14:36:14+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/posts/rust/0x01/</loc>
     <lastmod>2022-06-25T13:48:07+07:00</lastmod>
-  </url><url>
-    <loc>https://CodeChoVui.github.io/posts/rust/</loc>
-    <lastmod>2022-06-25T13:47:53+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/v2viierldibszwrlbxb0aw9u/</loc>
     <lastmod>2022-06-03T17:38:38+07:00</lastmod>
@@ -32,20 +32,21 @@
     <loc>https://CodeChoVui.github.io/posts/t%C3%B4i-h%E1%BB%8Dc-nodejs/</loc>
     <lastmod>2022-04-07T22:59:05+07:00</lastmod>
   </url><url>
-    <loc>https://CodeChoVui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/</loc>
-    <lastmod>2022-04-02T20:08:48+07:00</lastmod>
+    <loc>https://CodeChoVui.github.io/posts/</loc>
+    <lastmod>2022-06-26T10:54:47+07:00</lastmod>
+    <priority>0</priority>
   </url><url>
     <loc>https://CodeChoVui.github.io/categories/</loc>
-    <lastmod>2022-06-25T14:36:14+07:00</lastmod>
+    <lastmod>2022-06-26T10:54:47+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/</loc>
-    <lastmod>2022-06-25T14:36:14+07:00</lastmod>
-  </url><url>
-    <loc>https://CodeChoVui.github.io/posts/</loc>
-    <lastmod>2022-06-25T14:36:14+07:00</lastmod>
+    <lastmod>2022-06-26T10:54:47+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/categories/rust/</loc>
-    <lastmod>2022-06-25T14:36:14+07:00</lastmod>
+    <lastmod>2022-06-26T10:54:47+07:00</lastmod>
+  </url><url>
+    <loc>https://CodeChoVui.github.io/posts/rust/</loc>
+    <lastmod>2022-06-26T10:54:47+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/tags/learning/</loc>
     <lastmod>2022-06-25T13:48:07+07:00</lastmod>
@@ -65,15 +66,13 @@
     <loc>https://CodeChoVui.github.io/categories/c-basic/</loc>
     <lastmod>2022-04-02T20:08:48+07:00</lastmod>
   </url><url>
-    <loc>https://CodeChoVui.github.io/tags/test/</loc>
-    <lastmod>2021-06-06T15:18:01+07:00</lastmod>
-  </url><url>
-    <loc>https://CodeChoVui.github.io/posts/test_1/</loc>
-    <lastmod>2021-06-06T15:18:01+07:00</lastmod>
+    <loc>https://CodeChoVui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/</loc>
+    <lastmod>2022-04-02T20:08:48+07:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/about/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://CodeChoVui.github.io/posts/reactjs/</loc>
+    <priority>0</priority>
   </url>
 </urlset>

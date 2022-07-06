@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Code Cho Vui</title>
+    <title>Code Cho Vui</title>
     <link>https://CodeChoVui.github.io/posts/</link>
-    <description>Recent content in Posts on Code Cho Vui</description>
+    <description>Recent content on Code Cho Vui</description>
     <image>
       <url>https://CodeChoVui.github.io/img/icon.png</url>
       <link>https://CodeChoVui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Jun 2022 14:36:14 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test_1</title>
-      <link>https://CodeChoVui.github.io/posts/test_1/</link>
-      <pubDate>Sun, 06 Jun 2021 15:18:01 +0700</pubDate>
-      
-      <guid>https://CodeChoVui.github.io/posts/test_1/</guid>
-      <description>Xin chào Chào mừng mọi người đến với Code Cho Vui!
-Post này chỉ để test thôi :)
-Mọi người không cần quan tâm đâu.
-Syntax Highlight Code Python
-for i in range(10):  print(&amp;#34;Hello&amp;#34;) Links Facebook
-Github
-Blog</description>
-    </item>
-    
+    <lastBuildDate>Sun, 26 Jun 2022 10:54:47 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

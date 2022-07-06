@@ -9,7 +9,18 @@
       <link>https://CodeChoVui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Jun 2022 14:36:14 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/categories/rust/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jun 2022 10:54:47 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/categories/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0x03 - Rust Concept</title>
+      <link>https://CodeChoVui.github.io/posts/rust/0x03/</link>
+      <pubDate>Sun, 26 Jun 2022 10:54:47 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/posts/rust/0x03/</guid>
+      <description>Biến - Tính thay đổi Mặc định khi tạo một biến, biến đó không thể được thay đổi giá trị.
+Để tạo một biến có thể thay đổi được giá trị, hãy làm như sau:
+fn main() {  let mut x = 5; } Khác nhau giữa biến và hằng số Hằng số luôn luôn không thể thay đổi giá trị, do đó từ khóa mut sẽ không dùng được trong trường hợp này.</description>
+    </item>
+    
     <item>
       <title>0x02 - Guessing Game</title>
       <link>https://CodeChoVui.github.io/posts/rust/0x02/</link>

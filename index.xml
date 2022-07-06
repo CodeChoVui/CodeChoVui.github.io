@@ -9,7 +9,18 @@
       <link>https://CodeChoVui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Jun 2022 14:36:14 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jun 2022 10:54:47 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0x03 - Rust Concept</title>
+      <link>https://CodeChoVui.github.io/posts/rust/0x03/</link>
+      <pubDate>Sun, 26 Jun 2022 10:54:47 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/posts/rust/0x03/</guid>
+      <description>Biến - Tính thay đổi Mặc định khi tạo một biến, biến đó không thể được thay đổi giá trị.
+Để tạo một biến có thể thay đổi được giá trị, hãy làm như sau:
+fn main() {  let mut x = 5; } Khác nhau giữa biến và hằng số Hằng số luôn luôn không thể thay đổi giá trị, do đó từ khóa mut sẽ không dùng được trong trường hợp này.</description>
+    </item>
+    
     <item>
       <title>0x02 - Guessing Game</title>
       <link>https://CodeChoVui.github.io/posts/rust/0x02/</link>
@@ -91,21 +102,6 @@ Tuy nhiên C không hẳn hoàn hảo. Do đây là một ngôn ngữ mạnh m�
       <guid>https://CodeChoVui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC-/</guid>
       <description>Vài lời dài dòng Hiện nay, máy vi tính (computer) đã là một phần không thể thiếu trong đời sống của chúng ta. Tất cả các thiết bị có những đặc điểm như khả năng xử lý, nhập, xuất, lưu trữ dữ liệu và có thể được lập trình đều được xem là một máy tính (chiếc điện thoại bạn đang dùng cũng là một máy tính đấy).
 Máy tính tuy ngày mạnh mẽ nhưng điểm yếu lớn nhất của nó đó là nó sẽ không biết phải làm gì, trừ khi chúng ta cung cấp những câu lệnh hướng dẫn chính xác những việc mà nó cần làm.</description>
-    </item>
-    
-    <item>
-      <title>Test_1</title>
-      <link>https://CodeChoVui.github.io/posts/test_1/</link>
-      <pubDate>Sun, 06 Jun 2021 15:18:01 +0700</pubDate>
-      
-      <guid>https://CodeChoVui.github.io/posts/test_1/</guid>
-      <description>Xin chào Chào mừng mọi người đến với Code Cho Vui!
-Post này chỉ để test thôi :)
-Mọi người không cần quan tâm đâu.
-Syntax Highlight Code Python
-for i in range(10):  print(&amp;#34;Hello&amp;#34;) Links Facebook
-Github
-Blog</description>
     </item>
     
     <item>
