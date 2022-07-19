@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Code Cho Vui</title>
-    <link>https://CodeChoVui.github.io/categories/</link>
+    <link>https://codechovui.dev/categories/</link>
     <description>Recent content in Categories on Code Cho Vui</description>
     <image>
-      <url>https://CodeChoVui.github.io/img/icon.png</url>
-      <link>https://CodeChoVui.github.io/img/icon.png</link>
+      <url>https://codechovui.dev/img/icon.png</url>
+      <link>https://codechovui.dev/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jul 2022 15:41:36 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jul 2022 15:41:36 +0700</lastBuildDate><atom:link href="https://codechovui.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bash</title>
-      <link>https://CodeChoVui.github.io/categories/bash/</link>
+      <link>https://codechovui.dev/categories/bash/</link>
       <pubDate>Wed, 06 Jul 2022 15:41:36 +0700</pubDate>
       
-      <guid>https://CodeChoVui.github.io/categories/bash/</guid>
+      <guid>https://codechovui.dev/categories/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rust</title>
-      <link>https://CodeChoVui.github.io/categories/rust/</link>
+      <link>https://codechovui.dev/categories/rust/</link>
       <pubDate>Wed, 06 Jul 2022 09:03:24 +0700</pubDate>
       
-      <guid>https://CodeChoVui.github.io/categories/rust/</guid>
+      <guid>https://codechovui.dev/categories/rust/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nodejs</title>
-      <link>https://CodeChoVui.github.io/categories/nodejs/</link>
+      <link>https://codechovui.dev/categories/nodejs/</link>
       <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
       
-      <guid>https://CodeChoVui.github.io/categories/nodejs/</guid>
+      <guid>https://codechovui.dev/categories/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>C Basic</title>
-      <link>https://CodeChoVui.github.io/categories/c-basic/</link>
+      <link>https://codechovui.dev/categories/c-basic/</link>
       <pubDate>Sat, 02 Apr 2022 20:08:48 +0700</pubDate>
       
-      <guid>https://CodeChoVui.github.io/categories/c-basic/</guid>
+      <guid>https://codechovui.dev/categories/c-basic/</guid>
       <description></description>
     </item>
     

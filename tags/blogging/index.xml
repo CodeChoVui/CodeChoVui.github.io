@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogging on Code Cho Vui</title>
-    <link>https://CodeChoVui.github.io/tags/blogging/</link>
+    <link>https://codechovui.dev/tags/blogging/</link>
     <description>Recent content in Blogging on Code Cho Vui</description>
     <image>
-      <url>https://CodeChoVui.github.io/img/icon.png</url>
-      <link>https://CodeChoVui.github.io/img/icon.png</link>
+      <url>https://codechovui.dev/img/icon.png</url>
+      <link>https://codechovui.dev/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 Apr 2022 22:59:05 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Apr 2022 22:59:05 +0700</lastBuildDate><atom:link href="https://codechovui.dev/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Những Khái Niệm Cơ Bản</title>
-      <link>https://CodeChoVui.github.io/posts/t%C3%B4i-h%E1%BB%8Dc-nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
+      <link>https://codechovui.dev/posts/t%C3%B4i-h%E1%BB%8Dc-nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
       <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
       
-      <guid>https://CodeChoVui.github.io/posts/t%C3%B4i-h%E1%BB%8Dc-nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</guid>
+      <guid>https://codechovui.dev/posts/t%C3%B4i-h%E1%BB%8Dc-nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</guid>
       <description>Cài đặt NodeJS Để cài đặt Nodejs thì việc cần làm là lên trang web chính thức của Nodejs là nodejs.org và tải về bản cài đặt cho hệ điều hành bạn muốn. Riêng với Linux, chúng ta chỉ cần chạy câu lệnh install cơ bản.
 $ sudo apt install nodejs Sau khi đã cài đặt xong, để kiểm tra xem Nodejs đã được cài chưa, mình chạy câu lệnh node -v trong command prompt để xem phiên bản Nodejs được cài.</description>
     </item>
