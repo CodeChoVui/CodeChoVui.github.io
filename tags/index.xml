@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Code Cho Vui</title>
-    <link>https://codechovui.dev/tags/</link>
+    <link>https://codechovui.github.io/tags/</link>
     <description>Recent content in Tags on Code Cho Vui</description>
     <image>
-      <url>https://codechovui.dev/img/icon.png</url>
-      <link>https://codechovui.dev/img/icon.png</link>
+      <url>https://codechovui.github.io/img/icon.png</url>
+      <link>https://codechovui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jul 2022 15:41:36 +0700</lastBuildDate><atom:link href="https://codechovui.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jul 2022 15:41:36 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning</title>
-      <link>https://codechovui.dev/tags/learning/</link>
+      <link>https://codechovui.github.io/tags/learning/</link>
       <pubDate>Wed, 06 Jul 2022 15:41:36 +0700</pubDate>
       
-      <guid>https://codechovui.dev/tags/learning/</guid>
+      <guid>https://codechovui.github.io/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blogging</title>
-      <link>https://codechovui.dev/tags/blogging/</link>
+      <link>https://codechovui.github.io/tags/blogging/</link>
       <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
       
-      <guid>https://codechovui.dev/tags/blogging/</guid>
+      <guid>https://codechovui.github.io/tags/blogging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tôi tự học</title>
-      <link>https://codechovui.dev/tags/t%C3%B4i-t%E1%BB%B1-h%E1%BB%8Dc/</link>
+      <link>https://codechovui.github.io/tags/t%C3%B4i-t%E1%BB%B1-h%E1%BB%8Dc/</link>
       <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
       
-      <guid>https://codechovui.dev/tags/t%C3%B4i-t%E1%BB%B1-h%E1%BB%8Dc/</guid>
+      <guid>https://codechovui.github.io/tags/t%C3%B4i-t%E1%BB%B1-h%E1%BB%8Dc/</guid>
       <description></description>
     </item>
     

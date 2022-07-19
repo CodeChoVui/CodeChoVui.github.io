@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Code Cho Vui</title>
-    <link>https://codechovui.dev/posts/</link>
+    <link>https://codechovui.github.io/posts/</link>
     <description>Recent content on Code Cho Vui</description>
     <image>
-      <url>https://codechovui.dev/img/icon.png</url>
-      <link>https://codechovui.dev/img/icon.png</link>
+      <url>https://codechovui.github.io/img/icon.png</url>
+      <link>https://codechovui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jul 2022 15:41:36 +0700</lastBuildDate><atom:link href="https://codechovui.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jul 2022 15:41:36 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

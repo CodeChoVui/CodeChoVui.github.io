@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Rust on Code Cho Vui</title>
-    <link>https://codechovui.dev/posts/rust/</link>
+    <link>https://codechovui.github.io/posts/rust/</link>
     <description>Recent content in Rust on Code Cho Vui</description>
     <image>
-      <url>https://codechovui.dev/img/icon.png</url>
-      <link>https://codechovui.dev/img/icon.png</link>
+      <url>https://codechovui.github.io/img/icon.png</url>
+      <link>https://codechovui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jul 2022 09:03:24 +0700</lastBuildDate><atom:link href="https://codechovui.dev/posts/rust/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jul 2022 09:03:24 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/posts/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0x04 - Functions</title>
-      <link>https://codechovui.dev/posts/rust/0x04/</link>
+      <link>https://codechovui.github.io/posts/rust/0x04/</link>
       <pubDate>Wed, 06 Jul 2022 09:03:24 +0700</pubDate>
       
-      <guid>https://codechovui.dev/posts/rust/0x04/</guid>
+      <guid>https://codechovui.github.io/posts/rust/0x04/</guid>
       <description>Functions Khai báo một hàm.
 fn function_name() {  } Một chương trình có thể có nhiều hàm.
 fn main() {  another_function(); }  fn another_function() {  println!(&amp;#34;Hello!&amp;#34;); } Function Parameters Tạo một function với các parameters.
@@ -24,10 +24,10 @@ fn main() {  print_value(14);  print_value(20);   add_2_number(5, 10);  add_2_nu
     
     <item>
       <title>0x03 - Rust Concept</title>
-      <link>https://codechovui.dev/posts/rust/0x03/</link>
+      <link>https://codechovui.github.io/posts/rust/0x03/</link>
       <pubDate>Sun, 26 Jun 2022 10:54:47 +0700</pubDate>
       
-      <guid>https://codechovui.dev/posts/rust/0x03/</guid>
+      <guid>https://codechovui.github.io/posts/rust/0x03/</guid>
       <description>Biến - Tính thay đổi Mặc định khi tạo một biến, biến đó không thể được thay đổi giá trị.
 Để tạo một biến có thể thay đổi được giá trị, hãy làm như sau:
 fn main() {  let mut x = 5; } Khác nhau giữa biến và hằng số Hằng số luôn luôn không thể thay đổi giá trị, do đó từ khóa mut sẽ không dùng được trong trường hợp này.</description>
@@ -35,10 +35,10 @@ fn main() {  let mut x = 5; } Khác nhau giữa biến và hằng số Hằng s�
     
     <item>
       <title>0x02 - Guessing Game</title>
-      <link>https://codechovui.dev/posts/rust/0x02/</link>
+      <link>https://codechovui.github.io/posts/rust/0x02/</link>
       <pubDate>Sat, 25 Jun 2022 14:36:14 +0700</pubDate>
       
-      <guid>https://codechovui.dev/posts/rust/0x02/</guid>
+      <guid>https://codechovui.github.io/posts/rust/0x02/</guid>
       <description>Setup dự án Dùng cargo để setup dự án mới
 $ cargo new guessing_game $ cd guessing_game Nhận input Chỉnh sửa file src/main.rs như dưới đây.
 use std::io;  fn main() {  println!(&amp;#34;Welcome to Guessing Game&amp;#34;);   println!(&amp;#34;Enter your guess: &amp;#34;);   let mut guess = String::new();   io::stdin.read_line(&amp;amp;mut guess)  .expect(&amp;#34;Error reading stdin&amp;#34;);   println!(&amp;#34;You guessed {}&amp;#34;, guess); } Dòng đầu tiên, use std::io sẽ có tác dụng tương tự với việc import một thư viện vào dự án.</description>
@@ -46,10 +46,10 @@ use std::io;  fn main() {  println!(&amp;#34;Welcome to Guessing Game&amp;#34;);
     
     <item>
       <title>0x01 - Những điều cơ bản</title>
-      <link>https://codechovui.dev/posts/rust/0x01/</link>
+      <link>https://codechovui.github.io/posts/rust/0x01/</link>
       <pubDate>Sat, 25 Jun 2022 13:48:07 +0700</pubDate>
       
-      <guid>https://codechovui.dev/posts/rust/0x01/</guid>
+      <guid>https://codechovui.github.io/posts/rust/0x01/</guid>
       <description>Cài đặt Xem cách cài đặt tại website của Rust.
 Đối với linux chỉ cần dùng lệnh sau trong terminal
 curl --proto &amp;#39;=https&amp;#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh Hello, World! File extension của Rust là .rs. Tạo một file main.rs và tạo một chương trình in ra Hello, World! như sau.
