@@ -9,7 +9,19 @@
       <link>https://CodeChoVui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Jun 2022 13:48:07 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jul 2022 15:41:36 +0700</lastBuildDate><atom:link href="https://CodeChoVui.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0x00 - My Reference</title>
+      <link>https://CodeChoVui.github.io/posts/bash/0x00/</link>
+      <pubDate>Wed, 06 Jul 2022 15:41:36 +0700</pubDate>
+      
+      <guid>https://CodeChoVui.github.io/posts/bash/0x00/</guid>
+      <description>Reference All content written in this bash directory is referenced from the book Learn Bash The Hard Way.
+If you want to read about bash, head to my bash categories.
+I hope you have a good time reading my posts.
+Thank you!</description>
+    </item>
+    
     <item>
       <title>0x01 - Những điều cơ bản</title>
       <link>https://CodeChoVui.github.io/posts/rust/0x01/</link>
