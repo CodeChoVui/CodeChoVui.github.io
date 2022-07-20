@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://codechovui.github.io/posts/create-react-app-with-bun/</loc>
+    <lastmod>2022-07-20T19:39:48+07:00</lastmod>
+  </url><url>
     <loc>https://codechovui.github.io/posts/bash/0x00/</loc>
     <lastmod>2022-07-06T15:41:36+07:00</lastmod>
   </url><url>
@@ -39,8 +42,23 @@
     <lastmod>2022-04-07T22:59:05+07:00</lastmod>
   </url><url>
     <loc>https://codechovui.github.io/posts/</loc>
-    <lastmod>2022-07-06T15:41:36+07:00</lastmod>
+    <lastmod>2022-07-20T19:39:48+07:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://codechovui.github.io/tags/blogging/</loc>
+    <lastmod>2022-07-20T19:39:48+07:00</lastmod>
+  </url><url>
+    <loc>https://codechovui.github.io/categories/</loc>
+    <lastmod>2022-07-20T19:39:48+07:00</lastmod>
+  </url><url>
+    <loc>https://codechovui.github.io/</loc>
+    <lastmod>2022-07-20T19:39:48+07:00</lastmod>
+  </url><url>
+    <loc>https://codechovui.github.io/categories/reactjs/</loc>
+    <lastmod>2022-07-20T19:39:48+07:00</lastmod>
+  </url><url>
+    <loc>https://codechovui.github.io/tags/</loc>
+    <lastmod>2022-07-20T19:39:48+07:00</lastmod>
   </url><url>
     <loc>https://codechovui.github.io/categories/bash/</loc>
     <lastmod>2022-07-06T15:41:36+07:00</lastmod>
@@ -48,16 +66,7 @@
     <loc>https://codechovui.github.io/posts/bash/</loc>
     <lastmod>2022-07-06T15:41:36+07:00</lastmod>
   </url><url>
-    <loc>https://codechovui.github.io/categories/</loc>
-    <lastmod>2022-07-06T15:41:36+07:00</lastmod>
-  </url><url>
-    <loc>https://codechovui.github.io/</loc>
-    <lastmod>2022-07-06T15:41:36+07:00</lastmod>
-  </url><url>
     <loc>https://codechovui.github.io/tags/learning/</loc>
-    <lastmod>2022-07-06T15:41:36+07:00</lastmod>
-  </url><url>
-    <loc>https://codechovui.github.io/tags/</loc>
     <lastmod>2022-07-06T15:41:36+07:00</lastmod>
   </url><url>
     <loc>https://codechovui.github.io/categories/rust/</loc>
@@ -65,9 +74,6 @@
   </url><url>
     <loc>https://codechovui.github.io/posts/rust/</loc>
     <lastmod>2022-07-06T09:03:24+07:00</lastmod>
-  </url><url>
-    <loc>https://codechovui.github.io/tags/blogging/</loc>
-    <lastmod>2022-04-07T22:59:05+07:00</lastmod>
   </url><url>
     <loc>https://codechovui.github.io/categories/nodejs/</loc>
     <lastmod>2022-04-07T22:59:05+07:00</lastmod>

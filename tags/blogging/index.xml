@@ -9,7 +9,19 @@
       <link>https://codechovui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 Apr 2022 22:59:05 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jul 2022 19:39:48 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create React App With Bun</title>
+      <link>https://codechovui.github.io/posts/create-react-app-with-bun/</link>
+      <pubDate>Wed, 20 Jul 2022 19:39:48 +0700</pubDate>
+      
+      <guid>https://codechovui.github.io/posts/create-react-app-with-bun/</guid>
+      <description>Bun là cái gì ? Theo bun.sh, bun là một Javascript Runtime giống như Node hoặc Deno.
+Bun được tạo ra với những phương châm như:
+ Khởi tạo nhanh. Cung cấp Runtime hiệu suất cao. Trở thành một công cụ hoàn tất, cung cấp bundler, transcipter, package manager&amp;hellip;  Đọc thêm tại bun.sh.
+Cài đặt Bun Bạn có thể làm theo hướng dẫn trên trang web chính thức của Bun để cài đặt hoặc chạy câu lệnh cài đặt sau (linux).</description>
+    </item>
+    
     <item>
       <title>Những Khái Niệm Cơ Bản</title>
       <link>https://codechovui.github.io/posts/t%C3%B4i-h%E1%BB%8Dc-nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
