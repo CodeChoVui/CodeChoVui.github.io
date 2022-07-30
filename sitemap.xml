@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://codechovui.github.io/posts/bw90b2tvlw5nds1sb3o/</loc>
+    <lastmod>2022-07-31T00:56:03+07:00</lastmod>
+  </url><url>
     <loc>https://codechovui.github.io/posts/bash/0x02/</loc>
     <lastmod>2022-07-30T18:45:16+07:00</lastmod>
   </url><url>
@@ -45,16 +48,16 @@
     <lastmod>2022-04-07T22:59:05+07:00</lastmod>
   </url><url>
     <loc>https://codechovui.github.io/posts/</loc>
-    <lastmod>2022-07-30T18:45:16+07:00</lastmod>
+    <lastmod>2022-07-31T00:56:03+07:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://codechovui.github.io/</loc>
+    <lastmod>2022-07-31T00:56:03+07:00</lastmod>
   </url><url>
     <loc>https://codechovui.github.io/tags/bash/</loc>
     <lastmod>2022-07-30T18:45:16+07:00</lastmod>
   </url><url>
     <loc>https://codechovui.github.io/posts/bash/</loc>
-    <lastmod>2022-07-30T18:45:16+07:00</lastmod>
-  </url><url>
-    <loc>https://codechovui.github.io/</loc>
     <lastmod>2022-07-30T18:45:16+07:00</lastmod>
   </url><url>
     <loc>https://codechovui.github.io/tags/</loc>
