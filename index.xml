@@ -105,15 +105,6 @@ fn main() {  println!(&amp;#34;Hello, World!&amp;#34;); } Như trong C/C++, chư
     </item>
     
     <item>
-      <title>V2ViIERldiBSZWRlbXB0aW9u</title>
-      <link>https://codechovui.github.io/blog/v2viierldibszwrlbxb0aw9u/</link>
-      <pubDate>Fri, 03 Jun 2022 17:38:38 +0700</pubDate>
-      
-      <guid>https://codechovui.github.io/blog/v2viierldibszwrlbxb0aw9u/</guid>
-      <description>Join https://kunniii.github.io/ </description>
-    </item>
-    
-    <item>
       <title>Những Khái Niệm Cơ Bản</title>
       <link>https://codechovui.github.io/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
       <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
@@ -166,10 +157,10 @@ Máy tính tuy ngày mạnh mẽ nhưng điểm yếu lớn nhất của nó đ�
     
     <item>
       <title>About Code Cho Vui</title>
-      <link>https://codechovui.github.io/blog/about/</link>
+      <link>https://codechovui.github.io/about/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://codechovui.github.io/blog/about/</guid>
+      <guid>https://codechovui.github.io/about/</guid>
       <description>Code Cho Vui Đây là blog, nơi mà tôi chia sẻ các thứ thú vị xung quanh quá trình học code và làm code. Ngoài ra, đây cũng là nơi để tôi chém gió.
 Hy vọng bạn sẽ có thời gian thú vị khi đọc cái blog này!
 Tôi là Chủ Blog. Nhờ sự giúp đỡ của a10-01a cùng với Code Cho Vui, blog này được host tại Code Cho Vui</description>
