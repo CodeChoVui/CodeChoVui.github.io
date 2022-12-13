@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NodeJS on Code Cho Vui</title>
+    <link>https://codechovui.github.io/posts/nodejs/</link>
+    <description>Recent content in NodeJS on Code Cho Vui</description>
+    <image>
+      <url>https://codechovui.github.io/img/icon.png</url>
+      <link>https://codechovui.github.io/img/icon.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 07 Apr 2022 22:59:05 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/posts/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Những Khái Niệm Cơ Bản</title>
+      <link>https://codechovui.github.io/posts/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
+      <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
+      
+      <guid>https://codechovui.github.io/posts/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</guid>
+      <description>Cài đặt NodeJS Để cài đặt Nodejs thì việc cần làm là lên trang web chính thức của Nodejs là nodejs.org và tải về bản cài đặt cho hệ điều hành bạn muốn. Riêng với Linux, chúng ta chỉ cần chạy câu lệnh install cơ bản.
+$ sudo apt install nodejs Sau khi đã cài đặt xong, để kiểm tra xem Nodejs đã được cài chưa, mình chạy câu lệnh node -v trong command prompt để xem phiên bản Nodejs được cài.</description>
+    </item>
+    
+  </channel>
+</rss>

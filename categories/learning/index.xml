@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Code Cho Vui</title>
-    <link>https://codechovui.github.io/</link>
-    <description>Recent content on Code Cho Vui</description>
+    <title>Learning on Code Cho Vui</title>
+    <link>https://codechovui.github.io/categories/learning/</link>
+    <description>Recent content in Learning on Code Cho Vui</description>
     <image>
       <url>https://codechovui.github.io/img/icon.png</url>
       <link>https://codechovui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 31 Jul 2022 00:56:03 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Run mint-nft of NFPTU</title>
-      <link>https://codechovui.github.io/posts/bw90b2tvlw5nds1sb3o/</link>
-      <pubDate>Sun, 31 Jul 2022 00:56:03 +0700</pubDate>
-      
-      <guid>https://codechovui.github.io/posts/bw90b2tvlw5nds1sb3o/</guid>
-      <description>How to run repo NFPTU/mint-nft First, clone the repo.
-$ gh repo clone NFPTU/mint-nft # or $ git clone https://github.com/NFPTU/mint-nft.git Build FE Run this step.
-$ npm update $ npm install $ npm start After this, you have a working FE.
-Build FE with Motoko Change the dfx version in file dfx.json
-...  &amp;#34;dfx&amp;#34;: &amp;#34;0.11.0&amp;#34;, ... Then run
-$ dfx start Open new terminal and run
-$ dfx canister create --all Build the Front-End</description>
-    </item>
-    
+    <lastBuildDate>Sat, 30 Jul 2022 18:45:16 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/categories/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0x02</title>
       <link>https://codechovui.github.io/posts/bash/0x02/</link>
@@ -32,18 +17,6 @@ $ dfx canister create --all Build the Front-End</description>
       
       <guid>https://codechovui.github.io/posts/bash/0x02/</guid>
       <description>This is blog 2 </description>
-    </item>
-    
-    <item>
-      <title>Create React App With Bun</title>
-      <link>https://codechovui.github.io/posts/create-react-app-with-bun/</link>
-      <pubDate>Wed, 20 Jul 2022 19:39:48 +0700</pubDate>
-      
-      <guid>https://codechovui.github.io/posts/create-react-app-with-bun/</guid>
-      <description>Bun là cái gì ? Theo bun.sh, bun là một Javascript Runtime giống như Node hoặc Deno.
-Bun được tạo ra với những phương châm như:
- Khởi tạo nhanh. Cung cấp Runtime hiệu suất cao. Trở thành một công cụ hoàn tất, cung cấp bundler, transcipter, package manager&amp;hellip;  Đọc thêm tại bun.sh.
-Cài đặt Bun Bạn có thể làm theo hướng dẫn trên trang web chính thức của Bun để cài đặt hoặc chạy câu lệnh cài đặt sau (linux).</description>
     </item>
     
     <item>
@@ -105,15 +78,6 @@ fn main() {  println!(&amp;#34;Hello, World!&amp;#34;); } Như trong C/C++, chư
     </item>
     
     <item>
-      <title>V2ViIERldiBSZWRlbXB0aW9u</title>
-      <link>https://codechovui.github.io/v2viierldibszwrlbxb0aw9u/</link>
-      <pubDate>Fri, 03 Jun 2022 17:38:38 +0700</pubDate>
-      
-      <guid>https://codechovui.github.io/v2viierldibszwrlbxb0aw9u/</guid>
-      <description>Join https://kunniii.github.io/ </description>
-    </item>
-    
-    <item>
       <title>Những Khái Niệm Cơ Bản</title>
       <link>https://codechovui.github.io/posts/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
       <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
@@ -162,17 +126,6 @@ Tuy nhiên C không hẳn hoàn hảo. Do đây là một ngôn ngữ mạnh m�
       <guid>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</guid>
       <description>Vài lời dài dòng Hiện nay, máy vi tính (computer) đã là một phần không thể thiếu trong đời sống của chúng ta. Tất cả các thiết bị có những đặc điểm như khả năng xử lý, nhập, xuất, lưu trữ dữ liệu và có thể được lập trình đều được xem là một máy tính (chiếc điện thoại bạn đang dùng cũng là một máy tính đấy).
 Máy tính tuy ngày mạnh mẽ nhưng điểm yếu lớn nhất của nó đó là nó sẽ không biết phải làm gì, trừ khi chúng ta cung cấp những câu lệnh hướng dẫn chính xác những việc mà nó cần làm.</description>
-    </item>
-    
-    <item>
-      <title>About Code Cho Vui</title>
-      <link>https://codechovui.github.io/about/</link>
-      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://codechovui.github.io/about/</guid>
-      <description>Code Cho Vui Đây là blog, nơi mà tôi chia sẻ các thứ thú vị xung quanh quá trình học code và làm code. Ngoài ra, đây cũng là nơi để tôi chém gió.
-Hy vọng bạn sẽ có thời gian thú vị khi đọc cái blog này!
-Tôi là Chủ Blog. Nhờ sự giúp đỡ của a10-01a cùng với Code Cho Vui, blog này được host tại Code Cho Vui</description>
     </item>
     
   </channel>

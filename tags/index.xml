@@ -20,29 +20,38 @@
     </item>
     
     <item>
-      <title>Blogging</title>
-      <link>https://codechovui.github.io/tags/blogging/</link>
+      <title>ReactJS</title>
+      <link>https://codechovui.github.io/tags/reactjs/</link>
       <pubDate>Wed, 20 Jul 2022 19:39:48 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/tags/blogging/</guid>
+      <guid>https://codechovui.github.io/tags/reactjs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning</title>
-      <link>https://codechovui.github.io/tags/learning/</link>
-      <pubDate>Wed, 06 Jul 2022 15:41:36 +0700</pubDate>
+      <title>Rust</title>
+      <link>https://codechovui.github.io/tags/rust/</link>
+      <pubDate>Sat, 25 Jun 2022 13:48:07 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/tags/learning/</guid>
+      <guid>https://codechovui.github.io/tags/rust/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tôi tự học</title>
-      <link>https://codechovui.github.io/tags/t%C3%B4i-t%E1%BB%B1-h%E1%BB%8Dc/</link>
+      <title>Nodejs</title>
+      <link>https://codechovui.github.io/tags/nodejs/</link>
       <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/tags/t%C3%B4i-t%E1%BB%B1-h%E1%BB%8Dc/</guid>
+      <guid>https://codechovui.github.io/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C Basic</title>
+      <link>https://codechovui.github.io/tags/c-basic/</link>
+      <pubDate>Sat, 02 Apr 2022 20:08:48 +0700</pubDate>
+      
+      <guid>https://codechovui.github.io/tags/c-basic/</guid>
       <description></description>
     </item>
     

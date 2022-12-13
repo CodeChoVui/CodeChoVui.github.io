@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>C Basic on Code Cho Vui</title>
+    <link>https://codechovui.github.io/tags/c-basic/</link>
+    <description>Recent content in C Basic on Code Cho Vui</description>
+    <image>
+      <url>https://codechovui.github.io/img/icon.png</url>
+      <link>https://codechovui.github.io/img/icon.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 02 Apr 2022 20:08:48 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/tags/c-basic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biến và Nhập, Xuất dữ liệu</title>
+      <link>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/bi%E1%BA%BFn-v%C3%A0-nh%E1%BA%ADp-xu%E1%BA%A5t-d%E1%BB%AF-li%E1%BB%87u/</link>
+      <pubDate>Sat, 02 Apr 2022 20:08:48 +0700</pubDate>
+      
+      <guid>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/bi%E1%BA%BFn-v%C3%A0-nh%E1%BA%ADp-xu%E1%BA%A5t-d%E1%BB%AF-li%E1%BB%87u/</guid>
+      <description>Vài lời dài dòng Khi lập trình, rất hiếm khi chương trình của chúng ta chỉ hiển thị một thứ giống nhau trong các lần chạy. Ví dụ như chương trình máy tính của bạn, nó yêu cầu bạn phải nhập vào cái gì đó sau đó cho kết quả.
+Để làm được điều thì bạn sẽ cần một thứ để chứa giá trị mà người dùng nhập vào, và thứ bạn cần chính là biến.</description>
+    </item>
+    
+    <item>
+      <title>Chương trình C đầu tiên</title>
+      <link>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/ch%C6%B0%C6%A1ng-tr%C3%ACnh-c-%C4%91%E1%BA%A7u-ti%C3%AAn/</link>
+      <pubDate>Fri, 01 Apr 2022 20:16:24 +0700</pubDate>
+      
+      <guid>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/ch%C6%B0%C6%A1ng-tr%C3%ACnh-c-%C4%91%E1%BA%A7u-ti%C3%AAn/</guid>
+      <description>Vài lời dài dòng Trước khi tìm hiểu sâu hơn về ngôn ngữ lập trình C, chúng ta cần có góc nhìn tổng quát về cấu trúc của một chương trình được viết bằng C. Hơn nữa việc compile và chạy chương trình cũng là một bước cực kỳ quan trọng!
+Không dài dòng nữa, vào vấn đề chính nhé!
+QUAN TRỌNG NÈ !! Trước khi chạy chương trình. Chúng ta cần compile mã nguồn thành file thực thi để có thể thấy kết quả của chương trình chúng ta viết ra.</description>
+    </item>
+    
+    <item>
+      <title>Các cài đặt để lập trình C</title>
+      <link>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/c%C3%A1c-c%C3%A0i-%C4%91%E1%BA%B7t-%C4%91%E1%BB%83-l%E1%BA%ADp-tr%C3%ACnh-c/</link>
+      <pubDate>Wed, 30 Mar 2022 17:46:13 +0700</pubDate>
+      
+      <guid>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/c%C3%A1c-c%C3%A0i-%C4%91%E1%BA%B7t-%C4%91%E1%BB%83-l%E1%BA%ADp-tr%C3%ACnh-c/</guid>
+      <description>Vài lời dài dòng Ngôn ngữ C là một trong những ngôn ngữ khá phổ biến hiện nay. C được phát triển bởi Bell Labs vào những năm 1970. Ngôn ngữ C được biết đến như là một ngôn ngữ đơn giản, mạnh mẽ và hiệu quả.
+Tuy nhiên C không hẳn hoàn hảo. Do đây là một ngôn ngữ mạnh mẽ và cho can thiệp khá sâu vào máy tính, điều này có thể làm cho những lập trình viên dễ dàng làm hỏng một thứ gì đó nếu họ không luyện tập cho quen tay :)</description>
+    </item>
+    
+    <item>
+      <title>Lập trình là gì ?</title>
+      <link>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</link>
+      <pubDate>Wed, 30 Mar 2022 14:01:11 +0700</pubDate>
+      
+      <guid>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</guid>
+      <description>Vài lời dài dòng Hiện nay, máy vi tính (computer) đã là một phần không thể thiếu trong đời sống của chúng ta. Tất cả các thiết bị có những đặc điểm như khả năng xử lý, nhập, xuất, lưu trữ dữ liệu và có thể được lập trình đều được xem là một máy tính (chiếc điện thoại bạn đang dùng cũng là một máy tính đấy).
+Máy tính tuy ngày mạnh mẽ nhưng điểm yếu lớn nhất của nó đó là nó sẽ không biết phải làm gì, trừ khi chúng ta cung cấp những câu lệnh hướng dẫn chính xác những việc mà nó cần làm.</description>
+    </item>
+    
+  </channel>
+</rss>
