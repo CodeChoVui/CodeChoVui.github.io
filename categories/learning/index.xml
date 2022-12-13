@@ -12,19 +12,19 @@
     <lastBuildDate>Sat, 30 Jul 2022 18:45:16 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/categories/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0x02</title>
-      <link>https://codechovui.github.io/posts/bash/0x02/</link>
+      <link>https://codechovui.github.io/blog/bash/0x02/</link>
       <pubDate>Sat, 30 Jul 2022 18:45:16 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/bash/0x02/</guid>
+      <guid>https://codechovui.github.io/blog/bash/0x02/</guid>
       <description>This is blog 2 </description>
     </item>
     
     <item>
       <title>0x00 - My Reference</title>
-      <link>https://codechovui.github.io/posts/bash/0x00/</link>
+      <link>https://codechovui.github.io/blog/bash/0x00/</link>
       <pubDate>Wed, 06 Jul 2022 15:41:36 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/bash/0x00/</guid>
+      <guid>https://codechovui.github.io/blog/bash/0x00/</guid>
       <description>Reference All content written in this bash directory is referenced from the book Learn Bash The Hard Way.
 If you want to read about bash, head to my bash categories.
 I hope you have a good time reading my posts.
@@ -33,10 +33,10 @@ Thank you!</description>
     
     <item>
       <title>0x04 - Functions</title>
-      <link>https://codechovui.github.io/posts/rust/0x04/</link>
+      <link>https://codechovui.github.io/blog/rust/0x04/</link>
       <pubDate>Wed, 06 Jul 2022 09:03:24 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/rust/0x04/</guid>
+      <guid>https://codechovui.github.io/blog/rust/0x04/</guid>
       <description>Functions Khai báo một hàm.
 fn function_name() {  } Một chương trình có thể có nhiều hàm.
 fn main() {  another_function(); }  fn another_function() {  println!(&amp;#34;Hello!&amp;#34;); } Function Parameters Tạo một function với các parameters.
@@ -45,10 +45,10 @@ fn main() {  print_value(14);  print_value(20);   add_2_number(5, 10);  add_2_nu
     
     <item>
       <title>0x03 - Rust Concept</title>
-      <link>https://codechovui.github.io/posts/rust/0x03/</link>
+      <link>https://codechovui.github.io/blog/rust/0x03/</link>
       <pubDate>Sun, 26 Jun 2022 10:54:47 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/rust/0x03/</guid>
+      <guid>https://codechovui.github.io/blog/rust/0x03/</guid>
       <description>Biến - Tính thay đổi Mặc định khi tạo một biến, biến đó không thể được thay đổi giá trị.
 Để tạo một biến có thể thay đổi được giá trị, hãy làm như sau:
 fn main() {  let mut x = 5; } Khác nhau giữa biến và hằng số Hằng số luôn luôn không thể thay đổi giá trị, do đó từ khóa mut sẽ không dùng được trong trường hợp này.</description>
@@ -56,10 +56,10 @@ fn main() {  let mut x = 5; } Khác nhau giữa biến và hằng số Hằng s�
     
     <item>
       <title>0x02 - Guessing Game</title>
-      <link>https://codechovui.github.io/posts/rust/0x02/</link>
+      <link>https://codechovui.github.io/blog/rust/0x02/</link>
       <pubDate>Sat, 25 Jun 2022 14:36:14 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/rust/0x02/</guid>
+      <guid>https://codechovui.github.io/blog/rust/0x02/</guid>
       <description>Setup dự án Dùng cargo để setup dự án mới
 $ cargo new guessing_game $ cd guessing_game Nhận input Chỉnh sửa file src/main.rs như dưới đây.
 use std::io;  fn main() {  println!(&amp;#34;Welcome to Guessing Game&amp;#34;);   println!(&amp;#34;Enter your guess: &amp;#34;);   let mut guess = String::new();   io::stdin.read_line(&amp;amp;mut guess)  .expect(&amp;#34;Error reading stdin&amp;#34;);   println!(&amp;#34;You guessed {}&amp;#34;, guess); } Dòng đầu tiên, use std::io sẽ có tác dụng tương tự với việc import một thư viện vào dự án.</description>
@@ -67,10 +67,10 @@ use std::io;  fn main() {  println!(&amp;#34;Welcome to Guessing Game&amp;#34;);
     
     <item>
       <title>0x01 - Những điều cơ bản</title>
-      <link>https://codechovui.github.io/posts/rust/0x01/</link>
+      <link>https://codechovui.github.io/blog/rust/0x01/</link>
       <pubDate>Sat, 25 Jun 2022 13:48:07 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/rust/0x01/</guid>
+      <guid>https://codechovui.github.io/blog/rust/0x01/</guid>
       <description>Cài đặt Xem cách cài đặt tại website của Rust.
 Đối với linux chỉ cần dùng lệnh sau trong terminal
 curl --proto &amp;#39;=https&amp;#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh Hello, World! File extension của Rust là .rs. Tạo một file main.rs và tạo một chương trình in ra Hello, World! như sau.
@@ -79,30 +79,30 @@ fn main() {  println!(&amp;#34;Hello, World!&amp;#34;); } Như trong C/C++, chư
     
     <item>
       <title>Những Khái Niệm Cơ Bản</title>
-      <link>https://codechovui.github.io/posts/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
+      <link>https://codechovui.github.io/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
       <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</guid>
+      <guid>https://codechovui.github.io/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</guid>
       <description>Cài đặt NodeJS Để cài đặt Nodejs thì việc cần làm là lên trang web chính thức của Nodejs là nodejs.org và tải về bản cài đặt cho hệ điều hành bạn muốn. Riêng với Linux, chúng ta chỉ cần chạy câu lệnh install cơ bản.
 $ sudo apt install nodejs Sau khi đã cài đặt xong, để kiểm tra xem Nodejs đã được cài chưa, mình chạy câu lệnh node -v trong command prompt để xem phiên bản Nodejs được cài.</description>
     </item>
     
     <item>
       <title>Biến và Nhập, Xuất dữ liệu</title>
-      <link>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/bi%E1%BA%BFn-v%C3%A0-nh%E1%BA%ADp-xu%E1%BA%A5t-d%E1%BB%AF-li%E1%BB%87u/</link>
+      <link>https://codechovui.github.io/blog/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/bi%E1%BA%BFn-v%C3%A0-nh%E1%BA%ADp-xu%E1%BA%A5t-d%E1%BB%AF-li%E1%BB%87u/</link>
       <pubDate>Sat, 02 Apr 2022 20:08:48 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/bi%E1%BA%BFn-v%C3%A0-nh%E1%BA%ADp-xu%E1%BA%A5t-d%E1%BB%AF-li%E1%BB%87u/</guid>
+      <guid>https://codechovui.github.io/blog/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/bi%E1%BA%BFn-v%C3%A0-nh%E1%BA%ADp-xu%E1%BA%A5t-d%E1%BB%AF-li%E1%BB%87u/</guid>
       <description>Vài lời dài dòng Khi lập trình, rất hiếm khi chương trình của chúng ta chỉ hiển thị một thứ giống nhau trong các lần chạy. Ví dụ như chương trình máy tính của bạn, nó yêu cầu bạn phải nhập vào cái gì đó sau đó cho kết quả.
 Để làm được điều thì bạn sẽ cần một thứ để chứa giá trị mà người dùng nhập vào, và thứ bạn cần chính là biến.</description>
     </item>
     
     <item>
       <title>Chương trình C đầu tiên</title>
-      <link>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/ch%C6%B0%C6%A1ng-tr%C3%ACnh-c-%C4%91%E1%BA%A7u-ti%C3%AAn/</link>
+      <link>https://codechovui.github.io/blog/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/ch%C6%B0%C6%A1ng-tr%C3%ACnh-c-%C4%91%E1%BA%A7u-ti%C3%AAn/</link>
       <pubDate>Fri, 01 Apr 2022 20:16:24 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/ch%C6%B0%C6%A1ng-tr%C3%ACnh-c-%C4%91%E1%BA%A7u-ti%C3%AAn/</guid>
+      <guid>https://codechovui.github.io/blog/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/ch%C6%B0%C6%A1ng-tr%C3%ACnh-c-%C4%91%E1%BA%A7u-ti%C3%AAn/</guid>
       <description>Vài lời dài dòng Trước khi tìm hiểu sâu hơn về ngôn ngữ lập trình C, chúng ta cần có góc nhìn tổng quát về cấu trúc của một chương trình được viết bằng C. Hơn nữa việc compile và chạy chương trình cũng là một bước cực kỳ quan trọng!
 Không dài dòng nữa, vào vấn đề chính nhé!
 QUAN TRỌNG NÈ !! Trước khi chạy chương trình. Chúng ta cần compile mã nguồn thành file thực thi để có thể thấy kết quả của chương trình chúng ta viết ra.</description>
@@ -110,20 +110,20 @@ QUAN TRỌNG NÈ !! Trước khi chạy chương trình. Chúng ta cần compile
     
     <item>
       <title>Các cài đặt để lập trình C</title>
-      <link>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/c%C3%A1c-c%C3%A0i-%C4%91%E1%BA%B7t-%C4%91%E1%BB%83-l%E1%BA%ADp-tr%C3%ACnh-c/</link>
+      <link>https://codechovui.github.io/blog/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/c%C3%A1c-c%C3%A0i-%C4%91%E1%BA%B7t-%C4%91%E1%BB%83-l%E1%BA%ADp-tr%C3%ACnh-c/</link>
       <pubDate>Wed, 30 Mar 2022 17:46:13 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/c%C3%A1c-c%C3%A0i-%C4%91%E1%BA%B7t-%C4%91%E1%BB%83-l%E1%BA%ADp-tr%C3%ACnh-c/</guid>
+      <guid>https://codechovui.github.io/blog/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/c%C3%A1c-c%C3%A0i-%C4%91%E1%BA%B7t-%C4%91%E1%BB%83-l%E1%BA%ADp-tr%C3%ACnh-c/</guid>
       <description>Vài lời dài dòng Ngôn ngữ C là một trong những ngôn ngữ khá phổ biến hiện nay. C được phát triển bởi Bell Labs vào những năm 1970. Ngôn ngữ C được biết đến như là một ngôn ngữ đơn giản, mạnh mẽ và hiệu quả.
 Tuy nhiên C không hẳn hoàn hảo. Do đây là một ngôn ngữ mạnh mẽ và cho can thiệp khá sâu vào máy tính, điều này có thể làm cho những lập trình viên dễ dàng làm hỏng một thứ gì đó nếu họ không luyện tập cho quen tay :)</description>
     </item>
     
     <item>
       <title>Lập trình là gì ?</title>
-      <link>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</link>
+      <link>https://codechovui.github.io/blog/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</link>
       <pubDate>Wed, 30 Mar 2022 14:01:11 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</guid>
+      <guid>https://codechovui.github.io/blog/l%E1%BA%ADp-tr%C3%ACnh-c%C4%83n-b%E1%BA%A3n-b%E1%BA%B1ng-c/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</guid>
       <description>Vài lời dài dòng Hiện nay, máy vi tính (computer) đã là một phần không thể thiếu trong đời sống của chúng ta. Tất cả các thiết bị có những đặc điểm như khả năng xử lý, nhập, xuất, lưu trữ dữ liệu và có thể được lập trình đều được xem là một máy tính (chiếc điện thoại bạn đang dùng cũng là một máy tính đấy).
 Máy tính tuy ngày mạnh mẽ nhưng điểm yếu lớn nhất của nó đó là nó sẽ không biết phải làm gì, trừ khi chúng ta cung cấp những câu lệnh hướng dẫn chính xác những việc mà nó cần làm.</description>
     </item>

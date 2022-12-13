@@ -12,10 +12,10 @@
     <lastBuildDate>Sat, 25 Jun 2022 13:48:07 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0x01 - Những điều cơ bản</title>
-      <link>https://codechovui.github.io/posts/rust/0x01/</link>
+      <link>https://codechovui.github.io/blog/rust/0x01/</link>
       <pubDate>Sat, 25 Jun 2022 13:48:07 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/posts/rust/0x01/</guid>
+      <guid>https://codechovui.github.io/blog/rust/0x01/</guid>
       <description>Cài đặt Xem cách cài đặt tại website của Rust.
 Đối với linux chỉ cần dùng lệnh sau trong terminal
 curl --proto &amp;#39;=https&amp;#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh Hello, World! File extension của Rust là .rs. Tạo một file main.rs và tạo một chương trình in ra Hello, World! như sau.
