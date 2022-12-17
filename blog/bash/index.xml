@@ -9,16 +9,7 @@
       <link>https://codechovui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 30 Jul 2022 18:45:16 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/blog/bash/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>0x02</title>
-      <link>https://codechovui.github.io/blog/bash/0x02/</link>
-      <pubDate>Sat, 30 Jul 2022 18:45:16 +0700</pubDate>
-      
-      <guid>https://codechovui.github.io/blog/bash/0x02/</guid>
-      <description>This is blog 2 </description>
-    </item>
-    
+    <lastBuildDate>Wed, 06 Jul 2022 15:41:36 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/blog/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0x00 - My Reference</title>
       <link>https://codechovui.github.io/blog/bash/0x00/</link>

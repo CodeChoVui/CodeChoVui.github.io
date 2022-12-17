@@ -26,15 +26,6 @@ $ dfx canister create --all Build the Front-End</description>
     </item>
     
     <item>
-      <title>0x02</title>
-      <link>https://codechovui.github.io/blog/bash/0x02/</link>
-      <pubDate>Sat, 30 Jul 2022 18:45:16 +0700</pubDate>
-      
-      <guid>https://codechovui.github.io/blog/bash/0x02/</guid>
-      <description>This is blog 2 </description>
-    </item>
-    
-    <item>
       <title>Create React App With Bun</title>
       <link>https://codechovui.github.io/blog/create-react-app-with-bun/</link>
       <pubDate>Wed, 20 Jul 2022 19:39:48 +0700</pubDate>
