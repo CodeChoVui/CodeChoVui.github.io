@@ -11,30 +11,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 22 Dec 2022 10:38:11 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/fsec/shellathon2022/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>K16</title>
-      <link>https://codechovui.github.io/fsec/shellathon2022/k16/</link>
-      <pubDate>Thu, 22 Dec 2022 10:39:27 +0700</pubDate>
-      
-      <guid>https://codechovui.github.io/fsec/shellathon2022/k16/</guid>
-      <description>Question 1 Something about the question and bellow should be a link or something to download or view the question.
-You can download file here.
-iaw.zip
-Here is the PDF file
-Underland_City.pdf
-Question 2 Something about the question and bellow should be a link or something to download or view the question.
-You can download file here.
-iaw.zip
-Here is the PDF file
-Underland_City.pdf
-Question 3 Something about the question and bellow should be a link or something to download or view the question.</description>
-    </item>
-    
-    <item>
-      <title>K17</title>
-      <link>https://codechovui.github.io/fsec/shellathon2022/k17/</link>
+      <title>K15 K16 K17</title>
+      <link>https://codechovui.github.io/fsec/shellathon2022/k15k16k17/</link>
       <pubDate>Thu, 22 Dec 2022 10:39:32 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/fsec/shellathon2022/k17/</guid>
+      <guid>https://codechovui.github.io/fsec/shellathon2022/k15k16k17/</guid>
       <description>Question 1 Something about the question and bellow should be a link or something to download or view the question.
 You can download file here.
 iaw.zip
