@@ -9,7 +9,7 @@
       <link>https://codechovui.github.io/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 22 Dec 2022 10:39:36 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Dec 2022 10:31:42 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>K15 K16 K17</title>
       <link>https://codechovui.github.io/fsec/shellathon2022/k15k16k17/</link>
@@ -157,13 +157,25 @@ Máy tính tuy ngày mạnh mẽ nhưng điểm yếu lớn nhất của nó đ�
     </item>
     
     <item>
-      <title>EventEmitter Trong Nodejs Là Gì?</title>
-      <link>https://codechovui.github.io/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>HTTP Server bằng NodeJS</title>
+      <link>https://codechovui.github.io/blog/nodejs/http-server-nodejs/</link>
+      <pubDate>Sat, 24 Dec 2022 10:14:30 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</guid>
-      <description>Mở đầu Tiếp nối series Cùng học Nodejs. Ở bài trước mình đã đi qua Những Khái Niệm Cơ Bản trong Nodejs. Trong phần này, mình xin tiếp tục giới thiệu các bạn khái niệm EventEmitter và sự hữu ích của nó trong Nodejs.
-Giới thiệu Đối với những bạn đã học về Nodejs chắc hẳn cũng đã nghe qua ít nhất một lần về sự kiện này. Sự kiện emit hay EventEmitter là một sự kiện có sẵn bên trong Nodejs, hiện tại có rất nhiều cách để sử dụng EventEmitter này.</description>
+      <guid>https://codechovui.github.io/blog/nodejs/http-server-nodejs/</guid>
+      <description>Hôm nay mình sẽ tìm hiểu cách để tạo một server siêu đơn giản bằng Nodejs với module HTTP.
+HTTP module là gì ?? HTTP, như cái tên của nó, module này giúp chúng ta khởi tạo một kết nối HTTP server và trả kết quả về client.
+Để sử dụng bất kì module nào trong Nodejs thì cũng cần phải import nó vào thông qua từ khóa require.</description>
+    </item>
+    
+    <item>
+      <title>Xử lý File trong NodeJS</title>
+      <link>https://codechovui.github.io/blog/nodejs/files-in-nodejs/</link>
+      <pubDate>Sat, 24 Dec 2022 10:31:42 +0700</pubDate>
+      
+      <guid>https://codechovui.github.io/blog/nodejs/files-in-nodejs/</guid>
+      <description>Trong bài viết này, mình cùng nhau tìm hiểu cách NodeJS làm việc và xử lý các tác vụ với file nhé.
+Module fs trong Nodejs Xử lý file là công việc khi mình tạo mới, truy cập, chỉnh sửa và lưu trữ file. Mình có thể làm việc với file thông qua module có sẵn trong nodejs đó là fs, viết tắt cho File System.
+Cũng như các module khác, khi cần sử dụng một module mình phải cần require() nó.</description>
     </item>
     
     <item>
@@ -174,6 +186,16 @@ Giới thiệu Đối với những bạn đã học về Nodejs chắc hẳn c�
       <guid>https://codechovui.github.io/fsec/shellathon2022/k18/</guid>
       <description>SHELLATHON 2022 This is the question for SHELLATHON 2022. Please download the file bellow.
 Click to download &amp;raquo; SHELLATHONFORK18.zip &amp;laquo; Click to download</description>
+    </item>
+    
+    <item>
+      <title>EventEmitter Trong Nodejs Là Gì?</title>
+      <link>https://codechovui.github.io/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechovui.github.io/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</guid>
+      <description>Mở đầu Tiếp nối series Cùng học Nodejs. Ở bài trước mình đã đi qua Những Khái Niệm Cơ Bản trong Nodejs. Trong phần này, mình xin tiếp tục giới thiệu các bạn khái niệm EventEmitter và sự hữu ích của nó trong Nodejs.
+Giới thiệu Đối với những bạn đã học về Nodejs chắc hẳn cũng đã nghe qua ít nhất một lần về sự kiện này. Sự kiện emit hay EventEmitter là một sự kiện có sẵn bên trong Nodejs, hiện tại có rất nhiều cách để sử dụng EventEmitter này.</description>
     </item>
     
     <item>
