@@ -20,5 +20,15 @@
 $ sudo apt install nodejs Sau khi đã cài đặt xong, để kiểm tra xem Nodejs đã được cài chưa, mình chạy câu lệnh node -v trong command prompt để xem phiên bản Nodejs được cài.</description>
     </item>
     
+    <item>
+      <title>EventEmitter Trong Nodejs Là Gì?</title>
+      <link>https://codechovui.github.io/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://codechovui.github.io/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</guid>
+      <description>Mở đầu Tiếp nối series Cùng học Nodejs. Ở bài trước mình đã đi qua Những Khái Niệm Cơ Bản trong Nodejs. Trong phần này, mình xin tiếp tục giới thiệu các bạn khái niệm EventEmitter và sự hữu ích của nó trong Nodejs.
+Giới thiệu Đối với những bạn đã học về Nodejs chắc hẳn cũng đã nghe qua ít nhất một lần về sự kiện này. Sự kiện emit hay EventEmitter là một sự kiện có sẵn bên trong Nodejs, hiện tại có rất nhiều cách để sử dụng EventEmitter này.</description>
+    </item>
+    
   </channel>
 </rss>
