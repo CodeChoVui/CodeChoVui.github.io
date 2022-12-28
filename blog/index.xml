@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Code Cho Vui</title>
-    <link>https://codechovui.github.io/blog/</link>
+    <link>https://codechovui.dev/blog/</link>
     <description>Recent content on Code Cho Vui</description>
     <image>
-      <url>https://codechovui.github.io/img/icon.png</url>
-      <link>https://codechovui.github.io/img/icon.png</link>
+      <url>https://codechovui.dev/img/icon.png</url>
+      <link>https://codechovui.dev/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Dec 2022 10:31:42 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Dec 2022 10:31:42 +0700</lastBuildDate><atom:link href="https://codechovui.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Run mint-nft of NFPTU</title>
-      <link>https://codechovui.github.io/blog/bw90b2tvlw5nds1sb3o/</link>
+      <link>https://codechovui.dev/blog/bw90b2tvlw5nds1sb3o/</link>
       <pubDate>Sun, 31 Jul 2022 00:56:03 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/blog/bw90b2tvlw5nds1sb3o/</guid>
+      <guid>https://codechovui.dev/blog/bw90b2tvlw5nds1sb3o/</guid>
       <description>How to run repo NFPTU/mint-nft First, clone the repo.
 $ gh repo clone NFPTU/mint-nft # or $ git clone https://github.com/NFPTU/mint-nft.git Build FE Run this step.
 $ npm update $ npm install $ npm start After this, you have a working FE.
@@ -27,10 +27,10 @@ $ dfx canister create --all Build the Front-End</description>
     
     <item>
       <title>Create React App With Bun</title>
-      <link>https://codechovui.github.io/blog/create-react-app-with-bun/</link>
+      <link>https://codechovui.dev/blog/create-react-app-with-bun/</link>
       <pubDate>Wed, 20 Jul 2022 19:39:48 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/blog/create-react-app-with-bun/</guid>
+      <guid>https://codechovui.dev/blog/create-react-app-with-bun/</guid>
       <description>Bun là cái gì ? Theo bun.sh, bun là một Javascript Runtime giống như Node hoặc Deno.
 Bun được tạo ra với những phương châm như:
  Khởi tạo nhanh. Cung cấp Runtime hiệu suất cao. Trở thành một công cụ hoàn tất, cung cấp bundler, transcipter, package manager&amp;hellip;  Đọc thêm tại bun.sh.

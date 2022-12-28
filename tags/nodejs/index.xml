@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Nodejs on Code Cho Vui</title>
-    <link>https://codechovui.github.io/tags/nodejs/</link>
+    <link>https://codechovui.dev/tags/nodejs/</link>
     <description>Recent content in Nodejs on Code Cho Vui</description>
     <image>
-      <url>https://codechovui.github.io/img/icon.png</url>
-      <link>https://codechovui.github.io/img/icon.png</link>
+      <url>https://codechovui.dev/img/icon.png</url>
+      <link>https://codechovui.dev/img/icon.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Dec 2022 10:31:42 +0700</lastBuildDate><atom:link href="https://codechovui.github.io/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Dec 2022 10:31:42 +0700</lastBuildDate><atom:link href="https://codechovui.dev/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Những Khái Niệm Cơ Bản</title>
-      <link>https://codechovui.github.io/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
+      <link>https://codechovui.dev/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link>
       <pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</guid>
+      <guid>https://codechovui.dev/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</guid>
       <description>Cài đặt NodeJS Để cài đặt Nodejs thì việc cần làm là lên trang web chính thức của Nodejs là nodejs.org và tải về bản cài đặt cho hệ điều hành bạn muốn. Riêng với Linux, chúng ta chỉ cần chạy câu lệnh install cơ bản.
 $ sudo apt install nodejs Sau khi đã cài đặt xong, để kiểm tra xem Nodejs đã được cài chưa, mình chạy câu lệnh node -v trong command prompt để xem phiên bản Nodejs được cài.</description>
     </item>
     
     <item>
       <title>HTTP Server bằng NodeJS</title>
-      <link>https://codechovui.github.io/blog/nodejs/http-server-nodejs/</link>
+      <link>https://codechovui.dev/blog/nodejs/http-server-nodejs/</link>
       <pubDate>Sat, 24 Dec 2022 10:14:30 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/blog/nodejs/http-server-nodejs/</guid>
+      <guid>https://codechovui.dev/blog/nodejs/http-server-nodejs/</guid>
       <description>Hôm nay mình sẽ tìm hiểu cách để tạo một server siêu đơn giản bằng Nodejs với module HTTP.
 HTTP module là gì ?? HTTP, như cái tên của nó, module này giúp chúng ta khởi tạo một kết nối HTTP server và trả kết quả về client.
 Để sử dụng bất kì module nào trong Nodejs thì cũng cần phải import nó vào thông qua từ khóa require.</description>
@@ -33,10 +33,10 @@ HTTP module là gì ?? HTTP, như cái tên của nó, module này giúp chúng 
     
     <item>
       <title>Xử lý File trong NodeJS</title>
-      <link>https://codechovui.github.io/blog/nodejs/files-in-nodejs/</link>
+      <link>https://codechovui.dev/blog/nodejs/files-in-nodejs/</link>
       <pubDate>Sat, 24 Dec 2022 10:31:42 +0700</pubDate>
       
-      <guid>https://codechovui.github.io/blog/nodejs/files-in-nodejs/</guid>
+      <guid>https://codechovui.dev/blog/nodejs/files-in-nodejs/</guid>
       <description>Trong bài viết này, mình cùng nhau tìm hiểu cách NodeJS làm việc và xử lý các tác vụ với file nhé.
 Module fs trong Nodejs Xử lý file là công việc khi mình tạo mới, truy cập, chỉnh sửa và lưu trữ file. Mình có thể làm việc với file thông qua module có sẵn trong nodejs đó là fs, viết tắt cho File System.
 Cũng như các module khác, khi cần sử dụng một module mình phải cần require() nó.</description>
@@ -44,10 +44,10 @@ Cũng như các module khác, khi cần sử dụng một module mình phải c�
     
     <item>
       <title>EventEmitter Trong Nodejs Là Gì?</title>
-      <link>https://codechovui.github.io/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</link>
+      <link>https://codechovui.dev/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://codechovui.github.io/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</guid>
+      <guid>https://codechovui.dev/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</guid>
       <description>Mở đầu Tiếp nối series Cùng học Nodejs. Ở bài trước mình đã đi qua Những Khái Niệm Cơ Bản trong Nodejs. Trong phần này, mình xin tiếp tục giới thiệu các bạn khái niệm EventEmitter và sự hữu ích của nó trong Nodejs.
 Giới thiệu Đối với những bạn đã học về Nodejs chắc hẳn cũng đã nghe qua ít nhất một lần về sự kiện này. Sự kiện emit hay EventEmitter là một sự kiện có sẵn bên trong Nodejs, hiện tại có rất nhiều cách để sử dụng EventEmitter này.</description>
     </item>
