@@ -21,21 +21,6 @@ Click to download &amp;raquo; SHELLATHON.rar &amp;laquo; Click to download</desc
     </item>
     
     <item>
-      <title>Run mint-nft of NFPTU</title>
-      <link>https://codechovui.dev/blog/bw90b2tvlw5nds1sb3o/</link>
-      <pubDate>Sun, 31 Jul 2022 00:56:03 +0700</pubDate>
-      
-      <guid>https://codechovui.dev/blog/bw90b2tvlw5nds1sb3o/</guid>
-      <description>How to run repo NFPTU/mint-nft First, clone the repo.
-$ gh repo clone NFPTU/mint-nft # or $ git clone https://github.com/NFPTU/mint-nft.git Build FE Run this step.
-$ npm update $ npm install $ npm start After this, you have a working FE.
-Build FE with Motoko Change the dfx version in file dfx.json
-...  &amp;#34;dfx&amp;#34;: &amp;#34;0.11.0&amp;#34;, ... Then run
-$ dfx start Open new terminal and run
-$ dfx canister create --all Build the Front-End</description>
-    </item>
-    
-    <item>
       <title>Create React App With Bun</title>
       <link>https://codechovui.dev/blog/create-react-app-with-bun/</link>
       <pubDate>Wed, 20 Jul 2022 19:39:48 +0700</pubDate>
