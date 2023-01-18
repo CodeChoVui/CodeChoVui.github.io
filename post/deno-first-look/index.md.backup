@@ -1,0 +1,68 @@
+---
+title: "Deno First Look"
+date: 2023-01-18T13:02:49+07:00
+weight: 1
+draft: true
+author: Kunniii
+tags:
+  - Deno
+categories:
+  - Blogging
+---
+
+![header image](img/Deno%20JS%20Learn.png)
+
+---
+
+## Deno là cái gì?
+
+Cũng như Node, Deno là một Javascript Runtime Environment chạy trên nền engine V8 và ngôn ngữ lập trình Rust.
+
+Deno được tạo ra Vào ngày 13 tháng 5 năm 2018 bởi [Ryan Dahl](https://en.wikipedia.org/wiki/Ryan_Dahl) nhằm khắc phục các vấn đề của Node.
+
+## Điểm nổi bật của Deno
+
+### TL;DR
+
+- Bảo mật theo mặc đinh. Các mô-đun khi chưa được enable sẽ không truy cập được.
+- Hỗ trợ TypeScript, không cần cài thêm gì cả.
+- Có một hệ thống mô-đun chuẩn hoá được đảm bảo tương thích với Deno.
+- Chỉ gửi duy nhất một tập tin.
+
+### Bảo mật
+
+Theo tác giả, Deno được chạy trong một sandbox theo mặc định, do đó, runtime sẽ không có quyền truy cập vào các file hệ thống, hệ thống mạng, các biến môi trường.
+
+Có thể nhận thấy điều đó trong ví dụ sau
+
+```js
+function main() {
+  const textEncoder = new TextEncoder();
+  const textData = textEncoder.encode("Hello CodeChoVui!\n");
+
+  Deno.writeFileSync("Hello.txt", textData);
+}
+
+main();
+```
+
+Khi thực thi file trên, Deno sẽ cần một số quyền để thực thi.
+
+![screenshot 1](img/Screenshot_1.png)
+
+Ta có thể bỏ qua thông báo này trong các lần chạy bằng cách dùng thêm options khi thực thi với Deno.
+
+```bash
+deno run --allow-write index.ts
+```
+
+### Modules
+
+Đối với Node, các modules sẽ đươc lưu tại
+
+---
+
+[//]: # (This part should be at to bottom of your post)
+[//]: # (Your name or git link should be there)
+
+> [Kunniii](https://github.com/kunniii)
