@@ -5,4 +5,7 @@ Tạo project với Cargo Sử dụng cargo new để tạo 1 project mới
 cargo new extract-zip-file Mình sẽ có cấu trúc thư mục cơ bản như sau:</description></item><item><title>Deno First Look</title><link>/blog/deno/deno-first-look/</link><pubDate>Wed, 18 Jan 2023 13:02:49 +0700</pubDate><guid>/blog/deno/deno-first-look/</guid><description>Deno là gì? Cũng như Node, Deno là một Javascript Runtime Environment chạy trên nền engine V8 và ngôn ngữ lập trình Rust.
 Deno được tạo ra Vào ngày 13 tháng 5 năm 2018 bởi Ryan Dahl nhằm khắc phục các vấn đề của Node.
 Hãy cùng mình &amp;ldquo;học&amp;rdquo; Deno trong bài viết này nhé.
-Điểm nổi bật của Deno TL;DR Bảo mật theo mặc đinh. Các mô-đun khi chưa được enable sẽ không truy cập được.</description></item></channel></rss>
+Điểm nổi bật của Deno TL;DR Bảo mật theo mặc đinh. Các mô-đun khi chưa được enable sẽ không truy cập được.</description></item><item><title>fpt.wiki - Chuyện Gì Vậy?</title><link>/blog/misc/fpt.wiki_what-is-this/</link><pubDate>Fri, 18 Nov 2022 19:36:11 +0700</pubDate><guid>/blog/misc/fpt.wiki_what-is-this/</guid><description>Ủa, là sao? Chuyện là tui đang đi dạo Facebook, và tui thấy một bài post như vầy&amp;hellip;
+Cũng không có gì thú vị, thứ làm tui muốn tìm hiểu là cái domain kia kìa: https://cdn.fpt.wiki/xxx.mp4.
+Hông lẽ trường FPT có domain với web này, mà dù cho là có, thì tại sao lại lưu trữ cái video như này nhề :))
+Dạo chơi một xíu Thường thì những subdomain CDN (Content Delivery Network) sẽ trỏ về một server chuyên phân phối dữ liệu cho website.</description></item></channel></rss>
