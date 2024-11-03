@@ -1,3 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Linux on Code Cho Vui</title><link>/tags/linux/</link><description>Recent content in Linux on Code Cho Vui</description><image><url>/img/icon.png</url><link>/img/icon.png</link></image><generator>Hugo -- gohugo.io</generator><language>vi</language><lastBuildDate>Tue, 30 May 2023 00:39:52 +0700</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Cách đổi hostname trên Linux</title><link>/howto/change-hostname-on-linux/</link><pubDate>Tue, 30 May 2023 00:39:52 +0700</pubDate><guid>/howto/change-hostname-on-linux/</guid><description>Cách đổi hostname trên Linux Có hai cách đó là dùng lệnh hostnamectl hoặc hostname
-Trước hết, kiểm tra hostname bằng lệnh hostname hoặc hostnamectl
-nguye@ubuntuserver ~&amp;gt; hostname ubuntuserver nguye@ubuntuserver ~&amp;gt; hostnamectl Static hostname: ubuntuserver Icon name: computer-vm Chassis: vm Machine ID: 357a9dfc1b6d4093ab6332a64287c078 Boot ID: d94544ee41f742a8b62928f535a0fad0 Virtualization: vmware Operating System: Ubuntu 22.04.2 LTS Kernel: Linux 5.15.0-72-generic Architecture: x86-64 Hardware Vendor: VMware, Inc. Hardware Model: VMware Virtual Platform Dùng lệnh hostnamectl Dùng lệnh hostnamectl để thay đồi hostname, ở ví dụ này, mình sẽ đổi thành ubuntu-shuffle.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Linux on Code Cho Vui</title><link>/tags/linux/</link><description>Recent content in Linux on Code Cho Vui</description><image><title>Code Cho Vui</title><url>/img/icon.png</url><link>/img/icon.png</link></image><generator>Hugo -- 0.136.5</generator><language>vi</language><lastBuildDate>Tue, 30 May 2023 00:39:52 +0700</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Cách đổi hostname trên Linux</title><link>/howto/change-hostname-on-linux/</link><pubDate>Tue, 30 May 2023 00:39:52 +0700</pubDate><guid>/howto/change-hostname-on-linux/</guid><description>&lt;hr>
+&lt;h2 id="cách-đổi-hostname-trên-linux">Cách đổi hostname trên Linux&lt;/h2>
+&lt;p>Có hai cách đó là dùng lệnh &lt;code>hostnamectl&lt;/code> hoặc &lt;code>hostname&lt;/code>&lt;/p>
+&lt;p>Trước hết, kiểm tra hostname bằng lệnh &lt;code>hostname&lt;/code> hoặc &lt;code>hostnamectl&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>nguye@ubuntuserver ~&amp;gt; hostname
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ubuntuserver
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nguye@ubuntuserver ~&amp;gt; hostnamectl
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Static hostname&lt;/span>: ubuntuserver
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Icon name&lt;/span>: computer-vm
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Chassis&lt;/span>: vm
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Machine ID&lt;/span>: 357a9dfc1b6d4093ab6332a64287c078
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Boot ID&lt;/span>: d94544ee41f742a8b62928f535a0fad0
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Virtualization&lt;/span>: vmware
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">Operating System&lt;/span>: Ubuntu 22.04.2 LTS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Kernel&lt;/span>: Linux 5.15.0-72-generic
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Architecture&lt;/span>: x86-64
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Hardware Vendor&lt;/span>: VMware, Inc.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Hardware Model&lt;/span>: VMware Virtual Platform
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="dùng-lệnh-hostnamectl">Dùng lệnh &lt;code>hostnamectl&lt;/code>&lt;/h3>
+&lt;ol>
+&lt;li>Dùng lệnh &lt;code>hostnamectl&lt;/code> để thay đồi hostname, ở ví dụ này, mình sẽ đổi thành &lt;code>ubuntu-shuffle&lt;/code>. Nhớ phải chạy bằng &lt;code>sudo&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>sudo hostnamectl set-hostname ubuntu-shuffle
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Đổi hostname trong file &lt;code>/etc/hosts&lt;/code>. Ví dụ, dùng &lt;code>vim&lt;/code> để thay đổi:&lt;/li>
+&lt;/ol>
+&lt;p>Trước khi thay đổi&lt;/p></description></item></channel></rss>

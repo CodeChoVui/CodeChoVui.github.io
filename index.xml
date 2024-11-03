@@ -1,42 +1,173 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Code Cho Vui</title><link>/</link><description>Recent content on Code Cho Vui</description><image><url>/img/icon.png</url><link>/img/icon.png</link></image><generator>Hugo -- gohugo.io</generator><language>vi</language><lastBuildDate>Tue, 30 May 2023 00:39:52 +0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker 0x01: Introduction</title><link>/blog/docker/0x01/</link><pubDate>Thu, 20 Apr 2023 21:45:36 +0700</pubDate><guid>/blog/docker/0x01/</guid><description>Docker là gì ? Docker là một nền tảng ứng dụng dựa trên các container, cho phép nhà phát triển xây dựng, đóng gói và chạy ứng dụng trên các container. Docker cho phép các ứng dụng được đóng gói cùng với các thư viện và các tài nguyên khác trong một container duy nhất, giúp tăng cường tính di động và độc lập của ứng dụng.
-Sẽ có một số các thuật ngữ mà có thể sẽ khó hiểu, mình sẽ cố gắng giải thích vào phần sau ở 0x02 - Khái niệm cơ bản.</description></item><item><title>Các khái niệm cơ bản - Phần 1</title><link>/blog/kotlinbasic/0x01/</link><pubDate>Wed, 19 Apr 2023 19:08:18 +0700</pubDate><guid>/blog/kotlinbasic/0x01/</guid><description>Giới thiệu Kotlin là một ngôn ngữ lập trình hiện đại, chủ yếu sử dụng trong lập trình ứng dụng di động (android). Kotlin là 1 dạng cải tiến từ Java, với các khái niệm về kiểu dữ liệu tương tự như Java nhưng khắc phục được các lỗi mà Java đang mắc phải. Cú pháp nhanh gọn và tiện lợi hơn. Hôm nay mình sẽ đi qua 1 số kiến thức cơ bản có trong Kotlin.</description></item><item><title>0x05 - Create An Extract-Zip-File Project</title><link>/blog/rust/0x05/</link><pubDate>Mon, 27 Mar 2023 12:48:19 +0700</pubDate><guid>/blog/rust/0x05/</guid><description>Qua các bài viết về concept cơ bản trong Rust trước đó. Hôm nay mình sẽ làm 1 tool giải nén file zip bằng thư viện zip trong Rust.
-Cách sử dụng tool này khá đơn giản, chỉ cần nhập dòng lệnh sau
-cargo run &amp;lt;file_name&amp;gt; Ok, bắt đầu thôi nào.
-Tạo project với Cargo Sử dụng cargo new để tạo 1 project mới
-cargo new extract-zip-file Mình sẽ có cấu trúc thư mục cơ bản như sau:</description></item><item><title>Deno First Look</title><link>/blog/deno/deno-first-look/</link><pubDate>Wed, 18 Jan 2023 13:02:49 +0700</pubDate><guid>/blog/deno/deno-first-look/</guid><description>Deno là gì? Cũng như Node, Deno là một Javascript Runtime Environment chạy trên nền engine V8 và ngôn ngữ lập trình Rust.
-Deno được tạo ra Vào ngày 13 tháng 5 năm 2018 bởi Ryan Dahl nhằm khắc phục các vấn đề của Node.
-Hãy cùng mình &amp;ldquo;học&amp;rdquo; Deno trong bài viết này nhé.
-Điểm nổi bật của Deno TL;DR Bảo mật theo mặc đinh. Các mô-đun khi chưa được enable sẽ không truy cập được.</description></item><item><title>Kunniii</title><link>/about/team/kunniii/</link><pubDate>Wed, 28 Dec 2022 13:39:55 +0700</pubDate><guid>/about/team/kunniii/</guid><description>Who am I ? Hello, tui là Kunniii :D
-Kunniii</description></item><item><title>fpt.wiki - Chuyện Gì Vậy?</title><link>/blog/misc/fpt.wiki_what-is-this/</link><pubDate>Fri, 18 Nov 2022 19:36:11 +0700</pubDate><guid>/blog/misc/fpt.wiki_what-is-this/</guid><description>Ủa, là sao? Chuyện là tui đang đi dạo Facebook, và tui thấy một bài post như vầy&amp;hellip;
-Cũng không có gì thú vị, thứ làm tui muốn tìm hiểu là cái domain kia kìa: https://cdn.fpt.wiki/xxx.mp4.
-Hông lẽ trường FPT có domain với web này, mà dù cho là có, thì tại sao lại lưu trữ cái video như này nhề :))
-Dạo chơi một xíu Thường thì những subdomain CDN (Content Delivery Network) sẽ trỏ về một server chuyên phân phối dữ liệu cho website.</description></item><item><title>0x00 - My Reference</title><link>/blog/bash/0x00/</link><pubDate>Wed, 06 Jul 2022 15:41:36 +0700</pubDate><guid>/blog/bash/0x00/</guid><description>Reference All content written in this bash directory is referenced from the book Learn Bash The Hard Way.
-If you want to read about bash, head to my bash categories.
-I hope you have a good time reading my posts.
-Thank you!</description></item><item><title>0x04 - Functions</title><link>/blog/rust/0x04/</link><pubDate>Wed, 06 Jul 2022 09:03:24 +0700</pubDate><guid>/blog/rust/0x04/</guid><description>Functions Khai báo một hàm.
-fn function_name() { } Một chương trình có thể có nhiều hàm.
-fn main() { another_function(); } fn another_function() { println!(&amp;#34;Hello!&amp;#34;); } Function Parameters Tạo một function với các parameters.
-fn main() { print_value(14); print_value(20); add_2_number(5, 10); add_2_number(7, 18); } fn print_value(value: i32) { println!(&amp;#34;The given value is: {}&amp;#34;, value); } fn add_2_number(a: i32, b: i32) { println!(&amp;#34;{} + {} = {}&amp;#34;, a, b, a+b); } Kết quả sẽ là</description></item><item><title>0x03 - Rust Concept</title><link>/blog/rust/0x03/</link><pubDate>Sun, 26 Jun 2022 10:54:47 +0700</pubDate><guid>/blog/rust/0x03/</guid><description>Biến - Tính thay đổi Mặc định khi tạo một biến, biến đó không thể được thay đổi giá trị.
-Để tạo một biến có thể thay đổi được giá trị, hãy làm như sau:
-fn main() { let mut x = 5; } Khác nhau giữa biến và hằng số Hằng số luôn luôn không thể thay đổi giá trị, do đó từ khóa mut sẽ không dùng được trong trường hợp này.</description></item><item><title>0x02 - Guessing Game</title><link>/blog/rust/0x02/</link><pubDate>Sat, 25 Jun 2022 14:36:14 +0700</pubDate><guid>/blog/rust/0x02/</guid><description>Setup dự án Dùng cargo để setup dự án mới
-cargo new guessing_game cd guessing_game Nhận input Chỉnh sửa file src/main.rs như dưới đây.
-use std::io; fn main() { println!(&amp;#34;Welcome to Guessing Game&amp;#34;); println!(&amp;#34;Enter your guess: &amp;#34;); let mut guess = String::new(); io::stdin.read_line(&amp;amp;mut guess) .expect(&amp;#34;Error reading stdin&amp;#34;); println!(&amp;#34;You guessed {}&amp;#34;, guess); } Dòng đầu tiên, use std::io sẽ có tác dụng tương tự với việc import một thư viện vào dự án.</description></item><item><title>0x01 - Những điều cơ bản</title><link>/blog/rust/0x01/</link><pubDate>Sat, 25 Jun 2022 13:48:07 +0700</pubDate><guid>/blog/rust/0x01/</guid><description>Cài đặt Xem cách cài đặt tại website của Rust.
-Đối với linux chỉ cần dùng lệnh sau trong terminal
-curl --proto &amp;#39;=https&amp;#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh Hello, World File extension của Rust là .rs. Tạo một file main.rs và tạo một chương trình in ra Hello, World! như sau.
-fn main() { println!(&amp;#34;Hello, World!&amp;#34;); } Như trong C/C++, chương trình Rust sẽ có một hàm main() là điểm bắt đầu của mọi chương trình.</description></item><item><title>Những Khái Niệm Cơ Bản</title><link>/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link><pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate><guid>/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</guid><description>Cài đặt NodeJS Để cài đặt Nodejs thì việc cần làm là lên trang web chính thức của Nodejs là nodejs.org và tải về bản cài đặt cho hệ điều hành bạn muốn. Riêng với Linux, chúng ta chỉ cần chạy câu lệnh install cơ bản.
-sudo apt install nodejs Sau khi đã cài đặt xong, để kiểm tra xem Nodejs đã được cài chưa, mình chạy câu lệnh node -v trong command prompt để xem phiên bản Nodejs được cài.</description></item><item><title>Biến và Nhập, Xuất dữ liệu</title><link>/blog/c-basic/bi%E1%BA%BFn-v%C3%A0-nh%E1%BA%ADp-xu%E1%BA%A5t-d%E1%BB%AF-li%E1%BB%87u/</link><pubDate>Sat, 02 Apr 2022 20:08:48 +0700</pubDate><guid>/blog/c-basic/bi%E1%BA%BFn-v%C3%A0-nh%E1%BA%ADp-xu%E1%BA%A5t-d%E1%BB%AF-li%E1%BB%87u/</guid><description>Vài lời dài dòng Khi lập trình, rất hiếm khi chương trình của chúng ta chỉ hiển thị một thứ giống nhau trong các lần chạy. Ví dụ như chương trình máy tính của bạn, nó yêu cầu bạn phải nhập vào cái gì đó sau đó cho kết quả.
-Để làm được điều thì bạn sẽ cần một thứ để chứa giá trị mà người dùng nhập vào, và thứ bạn cần chính là biến.</description></item><item><title>Chương trình C đầu tiên</title><link>/blog/c-basic/ch%C6%B0%C6%A1ng-tr%C3%ACnh-c-%C4%91%E1%BA%A7u-ti%C3%AAn/</link><pubDate>Fri, 01 Apr 2022 20:16:24 +0700</pubDate><guid>/blog/c-basic/ch%C6%B0%C6%A1ng-tr%C3%ACnh-c-%C4%91%E1%BA%A7u-ti%C3%AAn/</guid><description>Vài lời dài dòng Trước khi tìm hiểu sâu hơn về ngôn ngữ lập trình C, chúng ta cần có góc nhìn tổng quát về cấu trúc của một chương trình được viết bằng C. Hơn nữa việc compile và chạy chương trình cũng là một bước cực kỳ quan trọng!
-Không dài dòng nữa, vào vấn đề chính nhé!
-QUAN TRỌNG NÈ Trước khi chạy chương trình. Chúng ta cần compile mã nguồn thành file thực thi để có thể thấy kết quả của chương trình chúng ta viết ra.</description></item><item><title>Các cài đặt để lập trình C</title><link>/blog/c-basic/c%C3%A1c-c%C3%A0i-%C4%91%E1%BA%B7t-%C4%91%E1%BB%83-l%E1%BA%ADp-tr%C3%ACnh-c/</link><pubDate>Wed, 30 Mar 2022 17:46:13 +0700</pubDate><guid>/blog/c-basic/c%C3%A1c-c%C3%A0i-%C4%91%E1%BA%B7t-%C4%91%E1%BB%83-l%E1%BA%ADp-tr%C3%ACnh-c/</guid><description>Vài lời dài dòng Ngôn ngữ C là một trong những ngôn ngữ khá phổ biến hiện nay. C được phát triển bởi Bell Labs vào những năm 1970. Ngôn ngữ C được biết đến như là một ngôn ngữ đơn giản, mạnh mẽ và hiệu quả.
-Tuy nhiên C không hẳn hoàn hảo. Do đây là một ngôn ngữ mạnh mẽ và cho can thiệp khá sâu vào máy tính, điều này có thể làm cho những lập trình viên dễ dàng làm hỏng một thứ gì đó nếu họ không luyện tập cho quen tay :)</description></item><item><title>Lập trình là gì ?</title><link>/blog/c-basic/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</link><pubDate>Wed, 30 Mar 2022 14:01:11 +0700</pubDate><guid>/blog/c-basic/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</guid><description>Vài lời dài dòng Hiện nay, máy vi tính (computer) đã là một phần không thể thiếu trong đời sống của chúng ta. Tất cả các thiết bị có những đặc điểm như khả năng xử lý, nhập, xuất, lưu trữ dữ liệu và có thể được lập trình đều được xem là một máy tính (chiếc điện thoại bạn đang dùng cũng là một máy tính đấy).
-Máy tính tuy ngày mạnh mẽ nhưng điểm yếu lớn nhất của nó đó là nó sẽ không biết phải làm gì, trừ khi chúng ta cung cấp những câu lệnh hướng dẫn chính xác những việc mà nó cần làm.</description></item><item><title>Các khái niệm cơ bản - Phần 2</title><link>/blog/kotlinbasic/0x02/</link><pubDate>Sun, 30 Apr 2023 13:30:27 +0700</pubDate><guid>/blog/kotlinbasic/0x02/</guid><description>Mở bài Tóm tắt phần 1, mình đã đi qua các kiểu dữ liệu cơ bản từ khái niệm cơ bản đến cách tạo 1 biến và trường hợp sử dụng. Nay mình sẽ đi đến 2 kiểu dữ liệu cuối cùng trong danh sách kiểu dữ liệu của Kotlin. Arrays và String.
-Arrays (Mảng) 1. Khai báo Như trong Java, kiểu dữ liệu arrays là 1 tập hợp các giá trị cùng kiểu dữ liệu.</description></item><item><title>Docker 0x02: Cách cài đặt Docker</title><link>/blog/docker/0x02/</link><pubDate>Thu, 20 Apr 2023 21:45:50 +0700</pubDate><guid>/blog/docker/0x02/</guid><description>Khoan đã, cài &amp;ldquo;Docker&amp;rdquo; gì ? Tại sao lại có câu hỏi này. Vấn đề ở đây, Docker cho phép bạn cài Docker Desktop và Docker Engine.
-Để chạy được Docker thì Docker Engine là đủ, nhưng để quản lý các tài nguyên của Docker thông qua Docker Engine, bạn cần phải làm việc với cửa sổ dòng lệnh (terminal).
-Đối với Docker Desktop, bạn có thể làm việc với Docker một cách trực quan thông qua giao diện đồ họa.</description></item><item><title>HTTP Server bằng NodeJS</title><link>/blog/nodejs/http-server-nodejs/</link><pubDate>Sat, 24 Dec 2022 10:14:30 +0700</pubDate><guid>/blog/nodejs/http-server-nodejs/</guid><description>Hôm nay mình sẽ tìm hiểu cách để tạo một server siêu đơn giản bằng Nodejs với module HTTP.
-HTTP module là gì ?? HTTP, như cái tên của nó, module này giúp chúng ta khởi tạo một kết nối HTTP server và trả kết quả về client.
-Để sử dụng bất kì module nào trong Nodejs thì cũng cần phải import nó vào thông qua từ khóa require.</description></item><item><title>Xử lý File trong NodeJS</title><link>/blog/nodejs/files-in-nodejs/</link><pubDate>Sat, 24 Dec 2022 10:31:42 +0700</pubDate><guid>/blog/nodejs/files-in-nodejs/</guid><description>Trong bài viết này, mình cùng nhau tìm hiểu cách NodeJS làm việc và xử lý các tác vụ với file nhé.
-Module fs trong Nodejs Xử lý file là công việc khi mình tạo mới, truy cập, chỉnh sửa và lưu trữ file. Mình có thể làm việc với file thông qua module có sẵn trong nodejs đó là fs, viết tắt cho File System.
-Cũng như các module khác, khi cần sử dụng một module mình phải cần require() nó.</description></item><item><title>EventEmitter Trong Nodejs Là Gì?</title><link>/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</guid><description>Mở đầu Tiếp nối series Cùng học Nodejs. Ở bài trước mình đã đi qua Những Khái Niệm Cơ Bản trong Nodejs. Trong phần này, mình xin tiếp tục giới thiệu các bạn khái niệm EventEmitter và sự hữu ích của nó trong Nodejs.
-Giới thiệu Đối với những bạn đã học về Nodejs chắc hẳn cũng đã nghe qua ít nhất một lần về sự kiện này. Sự kiện emit hay EventEmitter là một sự kiện có sẵn bên trong Nodejs, hiện tại có rất nhiều cách để sử dụng EventEmitter này.</description></item><item><title>Cách đổi hostname trên Linux</title><link>/howto/change-hostname-on-linux/</link><pubDate>Tue, 30 May 2023 00:39:52 +0700</pubDate><guid>/howto/change-hostname-on-linux/</guid><description>Cách đổi hostname trên Linux Có hai cách đó là dùng lệnh hostnamectl hoặc hostname
-Trước hết, kiểm tra hostname bằng lệnh hostname hoặc hostnamectl
-nguye@ubuntuserver ~&amp;gt; hostname ubuntuserver nguye@ubuntuserver ~&amp;gt; hostnamectl Static hostname: ubuntuserver Icon name: computer-vm Chassis: vm Machine ID: 357a9dfc1b6d4093ab6332a64287c078 Boot ID: d94544ee41f742a8b62928f535a0fad0 Virtualization: vmware Operating System: Ubuntu 22.04.2 LTS Kernel: Linux 5.15.0-72-generic Architecture: x86-64 Hardware Vendor: VMware, Inc. Hardware Model: VMware Virtual Platform Dùng lệnh hostnamectl Dùng lệnh hostnamectl để thay đồi hostname, ở ví dụ này, mình sẽ đổi thành ubuntu-shuffle.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Code Cho Vui</title><link>/</link><description>Recent content on Code Cho Vui</description><image><title>Code Cho Vui</title><url>/img/icon.png</url><link>/img/icon.png</link></image><generator>Hugo -- 0.136.5</generator><language>vi</language><lastBuildDate>Tue, 30 May 2023 00:39:52 +0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker 0x01: Introduction</title><link>/blog/docker/0x01/</link><pubDate>Thu, 20 Apr 2023 21:45:36 +0700</pubDate><guid>/blog/docker/0x01/</guid><description>&lt;hr>
+&lt;h2 id="docker-là-gì-">Docker là gì ?&lt;/h2>
+&lt;p>Docker là một nền tảng ứng dụng dựa trên các container, cho phép nhà phát triển xây dựng, đóng gói và chạy ứng dụng trên các container. Docker cho phép các ứng dụng được đóng gói cùng với các thư viện và các tài nguyên khác trong một container duy nhất, giúp tăng cường tính di động và độc lập của ứng dụng.&lt;/p>
+&lt;p>Sẽ có một số các thuật ngữ mà có thể sẽ khó hiểu, mình sẽ cố gắng giải thích vào phần sau ở &lt;a href="../0x02/">0x02 - Khái niệm cơ bản&lt;/a>.&lt;/p></description></item><item><title>Các khái niệm cơ bản - Phần 1</title><link>/blog/kotlinbasic/0x01/</link><pubDate>Wed, 19 Apr 2023 19:08:18 +0700</pubDate><guid>/blog/kotlinbasic/0x01/</guid><description>&lt;h2 id="giới-thiệu">Giới thiệu&lt;/h2>
+&lt;p>Kotlin là một ngôn ngữ lập trình hiện đại, chủ yếu sử dụng trong lập trình ứng dụng di động (android). Kotlin là 1 dạng cải tiến từ Java, với các khái niệm về kiểu dữ liệu tương tự như Java nhưng khắc phục được các lỗi mà Java đang mắc phải. Cú pháp nhanh gọn và tiện lợi hơn. Hôm nay mình sẽ đi qua 1 số kiến thức cơ bản có trong Kotlin.&lt;/p></description></item><item><title>0x05 - Create An Extract-Zip-File Project</title><link>/blog/rust/0x05/</link><pubDate>Mon, 27 Mar 2023 12:48:19 +0700</pubDate><guid>/blog/rust/0x05/</guid><description>&lt;hr>
+&lt;p>Qua các bài viết về concept cơ bản trong Rust trước đó. Hôm nay mình sẽ làm 1 tool giải nén file zip bằng thư viện &lt;code>zip&lt;/code> trong Rust.&lt;/p>
+&lt;p>Cách sử dụng tool này khá đơn giản, chỉ cần nhập dòng lệnh sau&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cargo run &amp;lt;file_name&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ok, bắt đầu thôi nào.&lt;/p>
+&lt;h2 id="tạo-project-với-cargo">Tạo project với Cargo&lt;/h2>
+&lt;p>Sử dụng &lt;code>cargo new&lt;/code> để tạo 1 project mới&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cargo new extract-zip-file
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Mình sẽ có cấu trúc thư mục cơ bản như sau:&lt;/p></description></item><item><title>Deno First Look</title><link>/blog/deno/deno-first-look/</link><pubDate>Wed, 18 Jan 2023 13:02:49 +0700</pubDate><guid>/blog/deno/deno-first-look/</guid><description>&lt;p>&lt;img alt="header image" loading="lazy" src="/blog/deno/deno-first-look/img/Deno%20JS%20Learn.png">&lt;/p>
+&lt;hr>
+&lt;h2 id="deno-là-gì">Deno là gì?&lt;/h2>
+&lt;p>Cũng như Node, Deno là một Javascript Runtime Environment chạy trên nền engine V8 và ngôn ngữ lập trình Rust.&lt;/p>
+&lt;p>Deno được tạo ra Vào ngày 13 tháng 5 năm 2018 bởi &lt;a href="https://en.wikipedia.org/wiki/Ryan_Dahl">Ryan Dahl&lt;/a> nhằm khắc phục các vấn đề của Node.&lt;/p>
+&lt;p>Hãy cùng mình &amp;ldquo;học&amp;rdquo; Deno trong bài viết này nhé.&lt;/p>
+&lt;h2 id="điểm-nổi-bật-của-deno">Điểm nổi bật của Deno&lt;/h2>
+&lt;h3 id="tldr">TL;DR&lt;/h3>
+&lt;ul>
+&lt;li>Bảo mật theo mặc đinh. Các mô-đun khi chưa được enable sẽ không truy cập được.&lt;/li>
+&lt;li>Hỗ trợ TypeScript, không cần cài thêm gì cả.&lt;/li>
+&lt;li>Có một hệ thống mô-đun chuẩn hoá được đảm bảo tương thích với Deno.&lt;/li>
+&lt;li>Chỉ gửi duy nhất một tập tin.&lt;/li>
+&lt;/ul>
+&lt;h3 id="bảo-mật">Bảo mật&lt;/h3>
+&lt;p>Theo tác giả, Deno được chạy trong một sandbox theo mặc định, do đó, runtime sẽ không có quyền truy cập vào các file hệ thống, hệ thống mạng, các biến môi trường.&lt;/p></description></item><item><title>Kunniii</title><link>/about/team/kunniii/</link><pubDate>Wed, 28 Dec 2022 13:39:55 +0700</pubDate><guid>/about/team/kunniii/</guid><description>&lt;hr>
+&lt;h2 id="who-am-i-">Who am I ?&lt;/h2>
+&lt;p>Hello, tui là Kunniii :D&lt;/p>
+&lt;p>&lt;img alt="kunniii image" loading="lazy" src="/about/team/kunniii/img/kunniii.jpg">&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/%5BKunniii%5D">Kunniii&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>fpt.wiki - Chuyện Gì Vậy?</title><link>/blog/misc/fpt.wiki_what-is-this/</link><pubDate>Fri, 18 Nov 2022 19:36:11 +0700</pubDate><guid>/blog/misc/fpt.wiki_what-is-this/</guid><description>&lt;h2 id="ủa-là-sao">Ủa, là sao?&lt;/h2>
+&lt;p>Chuyện là tui đang đi dạo Facebook, và tui thấy một bài post như vầy&amp;hellip;&lt;/p>
+&lt;p>&lt;img alt="Hình ảnh post facebook của ai đó" loading="lazy" src="/blog/misc/fpt.wiki_what-is-this/img/image1.jpg">&lt;/p>
+&lt;p>Cũng không có gì thú vị, thứ làm tui muốn tìm hiểu là cái domain kia kìa: &lt;code>https://cdn.fpt.wiki/xxx.mp4&lt;/code>.&lt;/p>
+&lt;p>Hông lẽ trường FPT có domain với web này, mà dù cho là có, thì tại sao lại lưu trữ cái video như này nhề :))&lt;/p>
+&lt;h2 id="dạo-chơi-một-xíu">Dạo chơi một xíu&lt;/h2>
+&lt;p>Thường thì những subdomain CDN (Content Delivery Network) sẽ trỏ về một server chuyên phân phối dữ liệu cho website.&lt;/p></description></item><item><title>0x00 - My Reference</title><link>/blog/bash/0x00/</link><pubDate>Wed, 06 Jul 2022 15:41:36 +0700</pubDate><guid>/blog/bash/0x00/</guid><description>&lt;h2 id="reference">Reference&lt;/h2>
+&lt;p>All content written in this &lt;a href="/posts/bash">bash directory&lt;/a> is referenced from the book &lt;strong>Learn Bash The Hard Way&lt;/strong>.&lt;/p>
+&lt;p>If you want to read about bash, head to my &lt;a href="/posts/bash">bash categories&lt;/a>.&lt;/p>
+&lt;p>I hope you have a good time reading my posts.&lt;/p>
+&lt;p>Thank you!&lt;/p></description></item><item><title>0x04 - Functions</title><link>/blog/rust/0x04/</link><pubDate>Wed, 06 Jul 2022 09:03:24 +0700</pubDate><guid>/blog/rust/0x04/</guid><description>&lt;h2 id="functions">Functions&lt;/h2>
+&lt;p>Khai báo một hàm.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">function_name&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Một chương trình có thể có nhiều hàm.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> another_function();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">another_function&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;Hello!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="function-parameters">Function Parameters&lt;/h3>
+&lt;p>Tạo một function với các parameters.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print_value(&lt;span style="color:#bd93f9">14&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print_value(&lt;span style="color:#bd93f9">20&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> add_2_number(&lt;span style="color:#bd93f9">5&lt;/span>, &lt;span style="color:#bd93f9">10&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> add_2_number(&lt;span style="color:#bd93f9">7&lt;/span>, &lt;span style="color:#bd93f9">18&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">print_value&lt;/span>(value: &lt;span style="color:#8be9fd">i32&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;The given value is: &lt;/span>&lt;span style="color:#f1fa8c">{}&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>, value);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">add_2_number&lt;/span>(a: &lt;span style="color:#8be9fd">i32&lt;/span>, b: &lt;span style="color:#8be9fd">i32&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#f1fa8c">{}&lt;/span>&lt;span style="color:#f1fa8c"> + &lt;/span>&lt;span style="color:#f1fa8c">{}&lt;/span>&lt;span style="color:#f1fa8c"> = &lt;/span>&lt;span style="color:#f1fa8c">{}&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>, a, b, a&lt;span style="color:#ff79c6">+&lt;/span>b);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Kết quả sẽ là&lt;/p></description></item><item><title>0x03 - Rust Concept</title><link>/blog/rust/0x03/</link><pubDate>Sun, 26 Jun 2022 10:54:47 +0700</pubDate><guid>/blog/rust/0x03/</guid><description>&lt;h2 id="biến---tính-thay-đổi">Biến - Tính thay đổi&lt;/h2>
+&lt;p>Mặc định khi tạo một biến, biến đó không thể được thay đổi giá trị.&lt;/p>
+&lt;p>Để tạo một biến có thể thay đổi được giá trị, hãy làm như sau:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8be9fd;font-style:italic">let&lt;/span> &lt;span style="color:#ff79c6">mut&lt;/span> x &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#bd93f9">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="khác-nhau-giữa-biến-và-hằng-số">Khác nhau giữa biến và hằng số&lt;/h3>
+&lt;p>Hằng số luôn luôn không thể thay đổi giá trị, do đó từ khóa &lt;code>mut&lt;/code> sẽ không dùng được trong trường hợp này.&lt;/p></description></item><item><title>0x02 - Guessing Game</title><link>/blog/rust/0x02/</link><pubDate>Sat, 25 Jun 2022 14:36:14 +0700</pubDate><guid>/blog/rust/0x02/</guid><description>&lt;h2 id="setup-dự-án">Setup dự án&lt;/h2>
+&lt;p>Dùng cargo để setup dự án mới&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>cargo new guessing_game
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd guessing_game
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="nhận-input">Nhận input&lt;/h2>
+&lt;p>Chỉnh sửa file &lt;code>src/main.rs&lt;/code> như dưới đây.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">use&lt;/span> std::io;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;Welcome to Guessing Game&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;Enter your guess: &amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8be9fd;font-style:italic">let&lt;/span> &lt;span style="color:#ff79c6">mut&lt;/span> guess &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">String&lt;/span>::new();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> io::stdin.read_line(&lt;span style="color:#ff79c6">&amp;amp;&lt;/span>&lt;span style="color:#ff79c6">mut&lt;/span> guess)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .expect(&lt;span style="color:#f1fa8c">&amp;#34;Error reading stdin&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;You guessed &lt;/span>&lt;span style="color:#f1fa8c">{}&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>, guess);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Dòng đầu tiên, &lt;code>use std::io&lt;/code> sẽ có tác dụng tương tự với việc import một thư viện vào dự án. Với &lt;code>std::io&lt;/code>, chương trình sẽ có thể nhận được input.&lt;/p></description></item><item><title>0x01 - Những điều cơ bản</title><link>/blog/rust/0x01/</link><pubDate>Sat, 25 Jun 2022 13:48:07 +0700</pubDate><guid>/blog/rust/0x01/</guid><description>&lt;h2 id="cài-đặt">Cài đặt&lt;/h2>
+&lt;p>Xem cách cài đặt tại &lt;a href="https://www.rust-lang.org/tools/install">website&lt;/a> của Rust.&lt;/p>
+&lt;p>Đối với linux chỉ cần dùng lệnh sau trong terminal&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>curl --proto &lt;span style="color:#f1fa8c">&amp;#39;=https&amp;#39;&lt;/span> --tlsv1.2 -sSf https://sh.rustup.rs | sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="hello-world">Hello, World&lt;/h2>
+&lt;p>File extension của Rust là &lt;code>.rs&lt;/code>. Tạo một file &lt;code>main.rs&lt;/code> và tạo một chương trình in ra &lt;code>Hello, World!&lt;/code> như sau.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;Hello, World!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Như trong C/C++, chương trình Rust sẽ có một hàm &lt;code>main()&lt;/code> là điểm bắt đầu của mọi chương trình.&lt;/p></description></item><item><title>Những Khái Niệm Cơ Bản</title><link>/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</link><pubDate>Thu, 07 Apr 2022 22:59:05 +0700</pubDate><guid>/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/</guid><description>&lt;hr>
+&lt;h2 id="cài-đặt-nodejs">Cài đặt NodeJS&lt;/h2>
+&lt;p>Để cài đặt Nodejs thì việc cần làm là lên trang web chính thức của Nodejs là &lt;a href="https://nodejs.org">nodejs.org&lt;/a> và tải về bản cài đặt cho hệ điều hành bạn muốn. Riêng với Linux, chúng ta chỉ cần chạy câu lệnh install cơ bản.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install nodejs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Sau khi đã cài đặt xong, để kiểm tra xem Nodejs đã được cài chưa, mình chạy câu lệnh &lt;code>node -v&lt;/code> trong command prompt để xem phiên bản Nodejs được cài.&lt;/p></description></item><item><title>Biến và Nhập, Xuất dữ liệu</title><link>/blog/c-basic/bi%E1%BA%BFn-v%C3%A0-nh%E1%BA%ADp-xu%E1%BA%A5t-d%E1%BB%AF-li%E1%BB%87u/</link><pubDate>Sat, 02 Apr 2022 20:08:48 +0700</pubDate><guid>/blog/c-basic/bi%E1%BA%BFn-v%C3%A0-nh%E1%BA%ADp-xu%E1%BA%A5t-d%E1%BB%AF-li%E1%BB%87u/</guid><description>&lt;h2 id="vài-lời-dài-dòng">Vài lời dài dòng&lt;/h2>
+&lt;p>Khi lập trình, rất hiếm khi chương trình của chúng ta chỉ hiển thị một thứ giống nhau trong các lần chạy. Ví dụ như chương trình máy tính của bạn, nó yêu cầu bạn phải nhập vào cái gì đó sau đó cho kết quả.&lt;/p>
+&lt;p>Để làm được điều thì bạn sẽ cần một thứ để chứa giá trị mà người dùng nhập vào, và thứ bạn cần chính là biến.&lt;/p></description></item><item><title>Chương trình C đầu tiên</title><link>/blog/c-basic/ch%C6%B0%C6%A1ng-tr%C3%ACnh-c-%C4%91%E1%BA%A7u-ti%C3%AAn/</link><pubDate>Fri, 01 Apr 2022 20:16:24 +0700</pubDate><guid>/blog/c-basic/ch%C6%B0%C6%A1ng-tr%C3%ACnh-c-%C4%91%E1%BA%A7u-ti%C3%AAn/</guid><description>&lt;h2 id="vài-lời-dài-dòng">Vài lời dài dòng&lt;/h2>
+&lt;p>Trước khi tìm hiểu sâu hơn về ngôn ngữ lập trình C, chúng ta cần có góc nhìn tổng quát về cấu trúc của một chương trình được viết bằng C. Hơn nữa việc compile và chạy chương trình cũng là một bước cực kỳ quan trọng!&lt;/p>
+&lt;p>Không dài dòng nữa, vào vấn đề chính nhé!&lt;/p>
+&lt;h2 id="quan-trọng-nè">QUAN TRỌNG NÈ&lt;/h2>
+&lt;p>Trước khi chạy chương trình. Chúng ta cần compile mã nguồn thành file thực thi để có thể thấy kết quả của chương trình chúng ta viết ra.&lt;/p></description></item><item><title>Các cài đặt để lập trình C</title><link>/blog/c-basic/c%C3%A1c-c%C3%A0i-%C4%91%E1%BA%B7t-%C4%91%E1%BB%83-l%E1%BA%ADp-tr%C3%ACnh-c/</link><pubDate>Wed, 30 Mar 2022 17:46:13 +0700</pubDate><guid>/blog/c-basic/c%C3%A1c-c%C3%A0i-%C4%91%E1%BA%B7t-%C4%91%E1%BB%83-l%E1%BA%ADp-tr%C3%ACnh-c/</guid><description>&lt;h2 id="vài-lời-dài-dòng">Vài lời dài dòng&lt;/h2>
+&lt;p>Ngôn ngữ C là một trong những ngôn ngữ khá phổ biến hiện nay. C được phát triển bởi Bell Labs vào những năm 1970. Ngôn ngữ C được biết đến như là một ngôn ngữ đơn giản, mạnh mẽ và hiệu quả.&lt;/p>
+&lt;p>Tuy nhiên C không hẳn hoàn hảo. Do đây là một ngôn ngữ mạnh mẽ và cho can thiệp khá sâu vào máy tính, điều này có thể làm cho những lập trình viên dễ dàng làm hỏng một thứ gì đó nếu họ không luyện tập cho quen tay :)&lt;/p></description></item><item><title>Lập trình là gì ?</title><link>/blog/c-basic/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</link><pubDate>Wed, 30 Mar 2022 14:01:11 +0700</pubDate><guid>/blog/c-basic/l%E1%BA%ADp-tr%C3%ACnh-l%C3%A0-g%C3%AC/</guid><description>&lt;h2 id="vài-lời-dài-dòng">Vài lời dài dòng&lt;/h2>
+&lt;p>Hiện nay, máy vi tính (computer) đã là một phần không thể thiếu trong đời sống của chúng ta. Tất cả các thiết bị có những đặc điểm như khả năng xử lý, nhập, xuất, lưu trữ dữ liệu và có thể được lập trình đều được xem là một máy tính (chiếc điện thoại bạn đang dùng cũng là một máy tính đấy).&lt;/p>
+&lt;p>Máy tính tuy ngày mạnh mẽ nhưng điểm yếu lớn nhất của nó đó là nó sẽ không biết phải làm gì, trừ khi chúng ta cung cấp những câu lệnh hướng dẫn chính xác những việc mà nó cần làm. Tập hợp các câu lệnh được gọi là một chương trình. Do sự bùng nổ của các thiết bị thông minh, nhu cầu cho các công việc lập trình vẫn sẽ tăng cao.&lt;/p></description></item><item><title>Các khái niệm cơ bản - Phần 2</title><link>/blog/kotlinbasic/0x02/</link><pubDate>Sun, 30 Apr 2023 13:30:27 +0700</pubDate><guid>/blog/kotlinbasic/0x02/</guid><description>&lt;hr>
+&lt;h2 id="mở-bài">Mở bài&lt;/h2>
+&lt;p>Tóm tắt phần 1, mình đã đi qua các kiểu dữ liệu cơ bản từ khái niệm cơ bản đến cách tạo 1 biến và trường hợp sử dụng. Nay mình sẽ đi đến 2 kiểu dữ liệu cuối cùng trong danh sách kiểu dữ liệu của Kotlin. Arrays và String.&lt;/p>
+&lt;h2 id="arrays-mảng">Arrays (Mảng)&lt;/h2>
+&lt;h3 id="1-khai-báo">1. Khai báo&lt;/h3>
+&lt;p>Như trong Java, kiểu dữ liệu arrays là 1 tập hợp các giá trị cùng kiểu dữ liệu. Tuy nhiên, cách khởi tạo mảng trong Kotlin hoàn toàn khác với Java:&lt;/p></description></item><item><title>Docker 0x02: Cách cài đặt Docker</title><link>/blog/docker/0x02/</link><pubDate>Thu, 20 Apr 2023 21:45:50 +0700</pubDate><guid>/blog/docker/0x02/</guid><description>&lt;hr>
+&lt;h2 id="khoan-đã-cài-docker-gì-">Khoan đã, cài &amp;ldquo;Docker&amp;rdquo; gì ?&lt;/h2>
+&lt;p>Tại sao lại có câu hỏi này. Vấn đề ở đây, Docker cho phép bạn cài &lt;strong>Docker Desktop&lt;/strong> và &lt;strong>Docker Engine&lt;/strong>.&lt;/p>
+&lt;p>Để chạy được Docker thì Docker Engine là đủ, nhưng để quản lý các tài nguyên của Docker thông qua Docker Engine, bạn cần phải làm việc với cửa sổ dòng lệnh (terminal).&lt;/p>
+&lt;p>Đối với Docker Desktop, bạn có thể làm việc với Docker một cách trực quan thông qua giao diện đồ họa. Muốn chạy một image? Nhấn một nút. Muốn xóa một container? Nhấn thêm nút nữa.&lt;/p></description></item><item><title>HTTP Server bằng NodeJS</title><link>/blog/nodejs/http-server-nodejs/</link><pubDate>Sat, 24 Dec 2022 10:14:30 +0700</pubDate><guid>/blog/nodejs/http-server-nodejs/</guid><description>&lt;hr>
+&lt;p>Hôm nay mình sẽ tìm hiểu cách để tạo một server siêu đơn giản bằng Nodejs với module HTTP.&lt;/p>
+&lt;h2 id="http-module-là-gì-">HTTP module là gì ??&lt;/h2>
+&lt;p>HTTP, như cái tên của nó, module này giúp chúng ta khởi tạo một kết nối HTTP server và trả kết quả về client.&lt;/p>
+&lt;p>Để sử dụng bất kì module nào trong Nodejs thì cũng cần phải import nó vào thông qua từ khóa require.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">const&lt;/span> http &lt;span style="color:#ff79c6">=&lt;/span> require(&lt;span style="color:#f1fa8c">&amp;#39;http&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Dòng code này, mình hiểu tương đương với import trong Python&lt;/p></description></item><item><title>Xử lý File trong NodeJS</title><link>/blog/nodejs/files-in-nodejs/</link><pubDate>Sat, 24 Dec 2022 10:31:42 +0700</pubDate><guid>/blog/nodejs/files-in-nodejs/</guid><description>&lt;p>Trong bài viết này, mình cùng nhau tìm hiểu cách NodeJS làm việc và xử lý các tác vụ với file nhé.&lt;/p>
+&lt;h2 id="module-fs-trong-nodejs">Module fs trong Nodejs&lt;/h2>
+&lt;p>Xử lý file là công việc khi mình tạo mới, truy cập, chỉnh sửa và lưu trữ file. Mình có thể làm việc với file thông qua module có sẵn trong nodejs đó là fs, viết tắt cho File System.&lt;/p>
+&lt;p>Cũng như các module khác, khi cần sử dụng một module mình phải cần require() nó.&lt;/p></description></item><item><title>EventEmitter Trong Nodejs Là Gì?</title><link>/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/blog/nodejs/eventemitter-trong-nodejs-l%C3%A0-g%C3%AC/</guid><description>&lt;hr>
+&lt;h2 id="mở-đầu">Mở đầu&lt;/h2>
+&lt;p>Tiếp nối series Cùng học Nodejs. Ở bài trước mình đã đi qua &lt;a href="https://codechovui.dev/blog/nodejs/kh%C3%A1i-ni%E1%BB%87m-c%C6%A1-b%E1%BA%A3n/">Những Khái Niệm Cơ Bản&lt;/a> trong Nodejs. Trong phần này, mình xin tiếp tục giới thiệu các bạn khái niệm &lt;code>EventEmitter&lt;/code> và sự hữu ích của nó trong Nodejs.&lt;/p>
+&lt;h2 id="giới-thiệu">Giới thiệu&lt;/h2>
+&lt;p>Đối với những bạn đã học về Nodejs chắc hẳn cũng đã nghe qua ít nhất một lần về sự kiện này. Sự kiện emit hay EventEmitter là một sự kiện có sẵn bên trong Nodejs, hiện tại có rất nhiều cách để sử dụng EventEmitter này. Cùng mình khám phá sự thú vị của nó nhé!&lt;/p></description></item><item><title>Cách đổi hostname trên Linux</title><link>/howto/change-hostname-on-linux/</link><pubDate>Tue, 30 May 2023 00:39:52 +0700</pubDate><guid>/howto/change-hostname-on-linux/</guid><description>&lt;hr>
+&lt;h2 id="cách-đổi-hostname-trên-linux">Cách đổi hostname trên Linux&lt;/h2>
+&lt;p>Có hai cách đó là dùng lệnh &lt;code>hostnamectl&lt;/code> hoặc &lt;code>hostname&lt;/code>&lt;/p>
+&lt;p>Trước hết, kiểm tra hostname bằng lệnh &lt;code>hostname&lt;/code> hoặc &lt;code>hostnamectl&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>nguye@ubuntuserver ~&amp;gt; hostname
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ubuntuserver
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nguye@ubuntuserver ~&amp;gt; hostnamectl
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Static hostname&lt;/span>: ubuntuserver
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Icon name&lt;/span>: computer-vm
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Chassis&lt;/span>: vm
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Machine ID&lt;/span>: 357a9dfc1b6d4093ab6332a64287c078
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Boot ID&lt;/span>: d94544ee41f742a8b62928f535a0fad0
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Virtualization&lt;/span>: vmware
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">Operating System&lt;/span>: Ubuntu 22.04.2 LTS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Kernel&lt;/span>: Linux 5.15.0-72-generic
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Architecture&lt;/span>: x86-64
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Hardware Vendor&lt;/span>: VMware, Inc.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">Hardware Model&lt;/span>: VMware Virtual Platform
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="dùng-lệnh-hostnamectl">Dùng lệnh &lt;code>hostnamectl&lt;/code>&lt;/h3>
+&lt;ol>
+&lt;li>Dùng lệnh &lt;code>hostnamectl&lt;/code> để thay đồi hostname, ở ví dụ này, mình sẽ đổi thành &lt;code>ubuntu-shuffle&lt;/code>. Nhớ phải chạy bằng &lt;code>sudo&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>sudo hostnamectl set-hostname ubuntu-shuffle
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Đổi hostname trong file &lt;code>/etc/hosts&lt;/code>. Ví dụ, dùng &lt;code>vim&lt;/code> để thay đổi:&lt;/li>
+&lt;/ol>
+&lt;p>Trước khi thay đổi&lt;/p></description></item></channel></rss>

@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>📁 Deno - JS Runtime on Code Cho Vui</title><link>/blog/deno/</link><description>Recent content in 📁 Deno - JS Runtime on Code Cho Vui</description><image><url>/img/icon.png</url><link>/img/icon.png</link></image><generator>Hugo -- gohugo.io</generator><language>vi</language><lastBuildDate>Wed, 18 Jan 2023 13:02:49 +0700</lastBuildDate><atom:link href="/blog/deno/index.xml" rel="self" type="application/rss+xml"/><item><title>Deno First Look</title><link>/blog/deno/deno-first-look/</link><pubDate>Wed, 18 Jan 2023 13:02:49 +0700</pubDate><guid>/blog/deno/deno-first-look/</guid><description>Deno là gì? Cũng như Node, Deno là một Javascript Runtime Environment chạy trên nền engine V8 và ngôn ngữ lập trình Rust.
-Deno được tạo ra Vào ngày 13 tháng 5 năm 2018 bởi Ryan Dahl nhằm khắc phục các vấn đề của Node.
-Hãy cùng mình &amp;ldquo;học&amp;rdquo; Deno trong bài viết này nhé.
-Điểm nổi bật của Deno TL;DR Bảo mật theo mặc đinh. Các mô-đun khi chưa được enable sẽ không truy cập được.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>📁 Deno - JS Runtime on Code Cho Vui</title><link>/blog/deno/</link><description>Recent content in 📁 Deno - JS Runtime on Code Cho Vui</description><image><title>Code Cho Vui</title><url>/img/icon.png</url><link>/img/icon.png</link></image><generator>Hugo -- 0.136.5</generator><language>vi</language><lastBuildDate>Wed, 18 Jan 2023 13:02:49 +0700</lastBuildDate><atom:link href="/blog/deno/index.xml" rel="self" type="application/rss+xml"/><item><title>Deno First Look</title><link>/blog/deno/deno-first-look/</link><pubDate>Wed, 18 Jan 2023 13:02:49 +0700</pubDate><guid>/blog/deno/deno-first-look/</guid><description>&lt;p>&lt;img alt="header image" loading="lazy" src="/blog/deno/deno-first-look/img/Deno%20JS%20Learn.png">&lt;/p>
+&lt;hr>
+&lt;h2 id="deno-là-gì">Deno là gì?&lt;/h2>
+&lt;p>Cũng như Node, Deno là một Javascript Runtime Environment chạy trên nền engine V8 và ngôn ngữ lập trình Rust.&lt;/p>
+&lt;p>Deno được tạo ra Vào ngày 13 tháng 5 năm 2018 bởi &lt;a href="https://en.wikipedia.org/wiki/Ryan_Dahl">Ryan Dahl&lt;/a> nhằm khắc phục các vấn đề của Node.&lt;/p>
+&lt;p>Hãy cùng mình &amp;ldquo;học&amp;rdquo; Deno trong bài viết này nhé.&lt;/p>
+&lt;h2 id="điểm-nổi-bật-của-deno">Điểm nổi bật của Deno&lt;/h2>
+&lt;h3 id="tldr">TL;DR&lt;/h3>
+&lt;ul>
+&lt;li>Bảo mật theo mặc đinh. Các mô-đun khi chưa được enable sẽ không truy cập được.&lt;/li>
+&lt;li>Hỗ trợ TypeScript, không cần cài thêm gì cả.&lt;/li>
+&lt;li>Có một hệ thống mô-đun chuẩn hoá được đảm bảo tương thích với Deno.&lt;/li>
+&lt;li>Chỉ gửi duy nhất một tập tin.&lt;/li>
+&lt;/ul>
+&lt;h3 id="bảo-mật">Bảo mật&lt;/h3>
+&lt;p>Theo tác giả, Deno được chạy trong một sandbox theo mặc định, do đó, runtime sẽ không có quyền truy cập vào các file hệ thống, hệ thống mạng, các biến môi trường.&lt;/p></description></item></channel></rss>

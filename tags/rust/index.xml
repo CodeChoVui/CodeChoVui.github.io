@@ -1,15 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Rust on Code Cho Vui</title><link>/tags/rust/</link><description>Recent content in Rust on Code Cho Vui</description><image><url>/img/icon.png</url><link>/img/icon.png</link></image><generator>Hugo -- gohugo.io</generator><language>vi</language><lastBuildDate>Mon, 27 Mar 2023 12:48:19 +0700</lastBuildDate><atom:link href="/tags/rust/index.xml" rel="self" type="application/rss+xml"/><item><title>0x05 - Create An Extract-Zip-File Project</title><link>/blog/rust/0x05/</link><pubDate>Mon, 27 Mar 2023 12:48:19 +0700</pubDate><guid>/blog/rust/0x05/</guid><description>Qua các bài viết về concept cơ bản trong Rust trước đó. Hôm nay mình sẽ làm 1 tool giải nén file zip bằng thư viện zip trong Rust.
-Cách sử dụng tool này khá đơn giản, chỉ cần nhập dòng lệnh sau
-cargo run &amp;lt;file_name&amp;gt; Ok, bắt đầu thôi nào.
-Tạo project với Cargo Sử dụng cargo new để tạo 1 project mới
-cargo new extract-zip-file Mình sẽ có cấu trúc thư mục cơ bản như sau:</description></item><item><title>0x04 - Functions</title><link>/blog/rust/0x04/</link><pubDate>Wed, 06 Jul 2022 09:03:24 +0700</pubDate><guid>/blog/rust/0x04/</guid><description>Functions Khai báo một hàm.
-fn function_name() { } Một chương trình có thể có nhiều hàm.
-fn main() { another_function(); } fn another_function() { println!(&amp;#34;Hello!&amp;#34;); } Function Parameters Tạo một function với các parameters.
-fn main() { print_value(14); print_value(20); add_2_number(5, 10); add_2_number(7, 18); } fn print_value(value: i32) { println!(&amp;#34;The given value is: {}&amp;#34;, value); } fn add_2_number(a: i32, b: i32) { println!(&amp;#34;{} + {} = {}&amp;#34;, a, b, a+b); } Kết quả sẽ là</description></item><item><title>0x03 - Rust Concept</title><link>/blog/rust/0x03/</link><pubDate>Sun, 26 Jun 2022 10:54:47 +0700</pubDate><guid>/blog/rust/0x03/</guid><description>Biến - Tính thay đổi Mặc định khi tạo một biến, biến đó không thể được thay đổi giá trị.
-Để tạo một biến có thể thay đổi được giá trị, hãy làm như sau:
-fn main() { let mut x = 5; } Khác nhau giữa biến và hằng số Hằng số luôn luôn không thể thay đổi giá trị, do đó từ khóa mut sẽ không dùng được trong trường hợp này.</description></item><item><title>0x02 - Guessing Game</title><link>/blog/rust/0x02/</link><pubDate>Sat, 25 Jun 2022 14:36:14 +0700</pubDate><guid>/blog/rust/0x02/</guid><description>Setup dự án Dùng cargo để setup dự án mới
-cargo new guessing_game cd guessing_game Nhận input Chỉnh sửa file src/main.rs như dưới đây.
-use std::io; fn main() { println!(&amp;#34;Welcome to Guessing Game&amp;#34;); println!(&amp;#34;Enter your guess: &amp;#34;); let mut guess = String::new(); io::stdin.read_line(&amp;amp;mut guess) .expect(&amp;#34;Error reading stdin&amp;#34;); println!(&amp;#34;You guessed {}&amp;#34;, guess); } Dòng đầu tiên, use std::io sẽ có tác dụng tương tự với việc import một thư viện vào dự án.</description></item><item><title>0x01 - Những điều cơ bản</title><link>/blog/rust/0x01/</link><pubDate>Sat, 25 Jun 2022 13:48:07 +0700</pubDate><guid>/blog/rust/0x01/</guid><description>Cài đặt Xem cách cài đặt tại website của Rust.
-Đối với linux chỉ cần dùng lệnh sau trong terminal
-curl --proto &amp;#39;=https&amp;#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh Hello, World File extension của Rust là .rs. Tạo một file main.rs và tạo một chương trình in ra Hello, World! như sau.
-fn main() { println!(&amp;#34;Hello, World!&amp;#34;); } Như trong C/C++, chương trình Rust sẽ có một hàm main() là điểm bắt đầu của mọi chương trình.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Rust on Code Cho Vui</title><link>/tags/rust/</link><description>Recent content in Rust on Code Cho Vui</description><image><title>Code Cho Vui</title><url>/img/icon.png</url><link>/img/icon.png</link></image><generator>Hugo -- 0.136.5</generator><language>vi</language><lastBuildDate>Mon, 27 Mar 2023 12:48:19 +0700</lastBuildDate><atom:link href="/tags/rust/index.xml" rel="self" type="application/rss+xml"/><item><title>0x05 - Create An Extract-Zip-File Project</title><link>/blog/rust/0x05/</link><pubDate>Mon, 27 Mar 2023 12:48:19 +0700</pubDate><guid>/blog/rust/0x05/</guid><description>&lt;hr>
+&lt;p>Qua các bài viết về concept cơ bản trong Rust trước đó. Hôm nay mình sẽ làm 1 tool giải nén file zip bằng thư viện &lt;code>zip&lt;/code> trong Rust.&lt;/p>
+&lt;p>Cách sử dụng tool này khá đơn giản, chỉ cần nhập dòng lệnh sau&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cargo run &amp;lt;file_name&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ok, bắt đầu thôi nào.&lt;/p>
+&lt;h2 id="tạo-project-với-cargo">Tạo project với Cargo&lt;/h2>
+&lt;p>Sử dụng &lt;code>cargo new&lt;/code> để tạo 1 project mới&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cargo new extract-zip-file
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Mình sẽ có cấu trúc thư mục cơ bản như sau:&lt;/p></description></item><item><title>0x04 - Functions</title><link>/blog/rust/0x04/</link><pubDate>Wed, 06 Jul 2022 09:03:24 +0700</pubDate><guid>/blog/rust/0x04/</guid><description>&lt;h2 id="functions">Functions&lt;/h2>
+&lt;p>Khai báo một hàm.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">function_name&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Một chương trình có thể có nhiều hàm.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> another_function();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">another_function&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;Hello!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="function-parameters">Function Parameters&lt;/h3>
+&lt;p>Tạo một function với các parameters.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print_value(&lt;span style="color:#bd93f9">14&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print_value(&lt;span style="color:#bd93f9">20&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> add_2_number(&lt;span style="color:#bd93f9">5&lt;/span>, &lt;span style="color:#bd93f9">10&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> add_2_number(&lt;span style="color:#bd93f9">7&lt;/span>, &lt;span style="color:#bd93f9">18&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">print_value&lt;/span>(value: &lt;span style="color:#8be9fd">i32&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;The given value is: &lt;/span>&lt;span style="color:#f1fa8c">{}&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>, value);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">add_2_number&lt;/span>(a: &lt;span style="color:#8be9fd">i32&lt;/span>, b: &lt;span style="color:#8be9fd">i32&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#f1fa8c">{}&lt;/span>&lt;span style="color:#f1fa8c"> + &lt;/span>&lt;span style="color:#f1fa8c">{}&lt;/span>&lt;span style="color:#f1fa8c"> = &lt;/span>&lt;span style="color:#f1fa8c">{}&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>, a, b, a&lt;span style="color:#ff79c6">+&lt;/span>b);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Kết quả sẽ là&lt;/p></description></item><item><title>0x03 - Rust Concept</title><link>/blog/rust/0x03/</link><pubDate>Sun, 26 Jun 2022 10:54:47 +0700</pubDate><guid>/blog/rust/0x03/</guid><description>&lt;h2 id="biến---tính-thay-đổi">Biến - Tính thay đổi&lt;/h2>
+&lt;p>Mặc định khi tạo một biến, biến đó không thể được thay đổi giá trị.&lt;/p>
+&lt;p>Để tạo một biến có thể thay đổi được giá trị, hãy làm như sau:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8be9fd;font-style:italic">let&lt;/span> &lt;span style="color:#ff79c6">mut&lt;/span> x &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#bd93f9">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="khác-nhau-giữa-biến-và-hằng-số">Khác nhau giữa biến và hằng số&lt;/h3>
+&lt;p>Hằng số luôn luôn không thể thay đổi giá trị, do đó từ khóa &lt;code>mut&lt;/code> sẽ không dùng được trong trường hợp này.&lt;/p></description></item><item><title>0x02 - Guessing Game</title><link>/blog/rust/0x02/</link><pubDate>Sat, 25 Jun 2022 14:36:14 +0700</pubDate><guid>/blog/rust/0x02/</guid><description>&lt;h2 id="setup-dự-án">Setup dự án&lt;/h2>
+&lt;p>Dùng cargo để setup dự án mới&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>cargo new guessing_game
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd guessing_game
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="nhận-input">Nhận input&lt;/h2>
+&lt;p>Chỉnh sửa file &lt;code>src/main.rs&lt;/code> như dưới đây.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">use&lt;/span> std::io;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;Welcome to Guessing Game&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;Enter your guess: &amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8be9fd;font-style:italic">let&lt;/span> &lt;span style="color:#ff79c6">mut&lt;/span> guess &lt;span style="color:#ff79c6">=&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">String&lt;/span>::new();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> io::stdin.read_line(&lt;span style="color:#ff79c6">&amp;amp;&lt;/span>&lt;span style="color:#ff79c6">mut&lt;/span> guess)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .expect(&lt;span style="color:#f1fa8c">&amp;#34;Error reading stdin&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;You guessed &lt;/span>&lt;span style="color:#f1fa8c">{}&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>, guess);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Dòng đầu tiên, &lt;code>use std::io&lt;/code> sẽ có tác dụng tương tự với việc import một thư viện vào dự án. Với &lt;code>std::io&lt;/code>, chương trình sẽ có thể nhận được input.&lt;/p></description></item><item><title>0x01 - Những điều cơ bản</title><link>/blog/rust/0x01/</link><pubDate>Sat, 25 Jun 2022 13:48:07 +0700</pubDate><guid>/blog/rust/0x01/</guid><description>&lt;h2 id="cài-đặt">Cài đặt&lt;/h2>
+&lt;p>Xem cách cài đặt tại &lt;a href="https://www.rust-lang.org/tools/install">website&lt;/a> của Rust.&lt;/p>
+&lt;p>Đối với linux chỉ cần dùng lệnh sau trong terminal&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>curl --proto &lt;span style="color:#f1fa8c">&amp;#39;=https&amp;#39;&lt;/span> --tlsv1.2 -sSf https://sh.rustup.rs | sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="hello-world">Hello, World&lt;/h2>
+&lt;p>File extension của Rust là &lt;code>.rs&lt;/code>. Tạo một file &lt;code>main.rs&lt;/code> và tạo một chương trình in ra &lt;code>Hello, World!&lt;/code> như sau.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-rs" data-lang="rs">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">fn&lt;/span> &lt;span style="color:#50fa7b">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> println!(&lt;span style="color:#f1fa8c">&amp;#34;Hello, World!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Như trong C/C++, chương trình Rust sẽ có một hàm &lt;code>main()&lt;/code> là điểm bắt đầu của mọi chương trình.&lt;/p></description></item></channel></rss>
